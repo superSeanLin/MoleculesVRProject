@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3190611335
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 14cf2d2f105b1bcbf1c687aa3c3ffdfd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/AssetBundleSample/SampleAssets/Variants/VariantScene.unity
+Dependencies:
+- C:/Users/Jay/Downloads/FALL2017/NCSA SPIN/NCSA-Spin-Project-master/NCSA-Spin-Project-master/Daydream
+  test/AssetBundles/OSX/variants/myassets.hd

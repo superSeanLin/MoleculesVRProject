@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MatHack MRS Fall 2014</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+      body {
+        margin: 0px;
+        overflow: hidden;
+      }
+      #example {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    </style>
+</head>
+<body>
+<div id=example style=position:absolute; ></div>
+
+<!--
+<audio autoplay
+  src="http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.oga">
+Your user agent does not support the HTML5 Audio element.
+</audio>    
+-->
+
+<script src="../js/third-party/threejs/three.min.js"></script>
+<script src="../js/third-party/threejs/StereoEffect.js"></script>
+<script src="../js/third-party/threejs/DeviceOrientationControls.js"></script>
+<script src="../js/third-party/threejs/OrbitControls.js"></script>
+
+<script>
+    var camera, scene, renderer;
+    var effect, controls;
+    var element, container;
+    var as_mesh = [];
+    var mesh;
+
+    var clock = new THREE.Clock();
+    var geometry = new THREE.PlaneGeometry(1000, 1000);
+    var mesh = new THREE.Mesh(geometry, material);
+    var material = new THREE.MeshPhongMaterial( {color:0xffffff} );
+    //the following vars are used to dynamically render atoms in xyz file
+    var num_atoms = 0;
+    var atom_array = {};
+//////////////////////////CPK CHEMESTRY COLORING STARTS HERE download from http://jmol.sourceforge.net/jscolors/
+    var atom_colors = {
+H	:	0xFFFFFF	,
+He	:	0xD9FFFF	,
+Li	:	0xCC80FF	,
+Be	:	0xC2FF00	,
+B	:	0xFFB5B5	,
+C	:	0x909090	,
+N	:	0x3050F8	,
+O	:	0xFF0D0D	,
+F	:	0x90E050	,
+Ne	:	0xB3E3F5	,
+Na	:	0xAB5CF2	,
+Mg	:	0x8AFF00	,
+Al	:	0xBFA6A6	,
+Si	:	0xF0C8A0	,
+P	:	0xFF8000	,
+S	:	0xFFFF30	,
+Cl	:	0x1FF01F	,
+Ar	:	0x80D1E3	,
+K	:	0x8F40D4	,
+Ca	:	0x3DFF00	,
+Sc	:	0xE6E6E6	,
+Ti	:	0xBFC2C7	,
+V	:	0xA6A6AB	,
+Cr	:	0x8A99C7	,
+Mn	:	0x9C7AC7	,
+Fe	:	0xE06633	,
+Co	:	0xF090A0	,
+Ni	:	0x50D050	,
+Cu	:	0xC88033	,
+Zn	:	0x7D80B0	,
+Ga	:	0xC28F8F	,
+Ge	:	0x668F8F	,
+As	:	0xBD80E3	,
+Se	:	0xFFA100	,
+Br	:	0xA62929	,
+Kr	:	0x5CB8D1	,
+Rb	:	0x702EB0	,
+Sr	:	0x00FF00	,
+Y	:	0x94FFFF	,
+Zr	:	0x94E0E0	,
+Nb	:	0x73C2C9	,
+Mo	:	0x54B5B5	,
+Tc	:	0x3B9E9E	,
+Ru	:	0x248F8F	,
+Rh	:	0x0A7D8C	,
+Pd	:	0x006985	,
+Ag	:	0xC0C0C0	,
+Cd	:	0xFFD98F	,
+In	:	0xA67573	,
+Sn	:	0x668080	,
+Sb	:	0x9E63B5	,
+Te	:	0xD47A00	,
+I	:	0x940094	,
+Xe	:	0x429EB0	,
+Cs	:	0x57178F	,
+Ba	:	0x00C900	,
+La	:	0x70D4FF	,
+Ce	:	0xFFFFC7	,
+Pr	:	0xD9FFC7	,
+Nd	:	0xC7FFC7	,
+Pm	:	0xA3FFC7	,
+Sm	:	0x8FFFC7	,
+Eu	:	0x61FFC7	,
+Gd	:	0x45FFC7	,
+Tb	:	0x30FFC7	,
+Dy	:	0x1FFFC7	,
+Ho	:	0x00FF9C	,
+Er	:	0x00E675	,
+Tm	:	0x00D452	,
+Yb	:	0x00BF38	,
+Lu	:	0x00AB24	,
+Hf	:	0x4DC2FF	,
+Ta	:	0x4DA6FF	,
+W	:	0x2194D6	,
+Re	:	0x267DAB	,
+Os	:	0x266696	,
+Ir	:	0x175487	,
+Pt	:	0xD0D0E0	,
+Au	:	0xFFD123	,
+Hg	:	0xB8B8D0	,
+Tl	:	0xA6544D	,
+Pb	:	0x575961	,
+Bi	:	0x9E4FB5	,
+Po	:	0xAB5C00	,
+At	:	0x754F45	,
+Rn	:	0x428296	,
+Fr	:	0x420066	,
+Ra	:	0x007D00	,
+Ac	:	0x70ABFA	,
+Th	:	0x00BAFF	,
+Pa	:	0x00A1FF	,
+U	:	0x008FFF	,
+Np	:	0x0080FF	,
+Pu	:	0x006BFF	,
+Am	:	0x545CF2	,
+Cm	:	0x785CE3	,
+Bk	:	0x8A4FE3	,
+Cf	:	0xA136D4	,
+Es	:	0xB31FD4	,
+Fm	:	0xB31FBA	,
+Md	:	0xB30DA6	,
+No	:	0xBD0D87	,
+Lr	:	0xC70066	,
+Rf	:	0xCC0059	,
+Db	:	0xD1004F	,
+Sg	:	0xD90045	,
+Bh	:	0xE00038	,
+Hs	:	0xE6002E	,
+Mt	:	0xEB0026	}
+/////////////////COVALENT RADIUS BEGIN    
+
+//downloaded from http://crystalmaker.com/support/tutorials/crystalmaker/atomic-radii/index.html
+var covalent_radius = {
+H	:	0.37	,
+He	:	0.32	,
+Li	:	1.34	,
+Be	:	0.90	,
+B	:	0.82	,
+C	:	0.77	,
+N	:	0.75	,
+O	:	0.73	,
+F	:	0.71	,
+Ne	:	0.69	,
+Na	:	1.54	,
+Mg	:	1.30	,
+Al	:	1.18	,
+Si	:	1.11	,
+P	:	1.06	,
+S	:	1.02	,
+Cl	:	0.99	,
+Ar	:	0.97	,
+K	:	1.96	,
+Ca	:	1.74	,
+Sc	:	1.44	,
+Ti	:	1.36	,
+V	:	1.25	,
+Cr	:	1.27	,
+Mn	:	1.39	,
+Fe	:	1.25	,
+Co	:	1.26	,
+Ni	:	1.21	,
+Cu	:	1.38	,
+Zn	:	1.31	,
+Ga	:	1.26	,
+Ge	:	1.22	,
+As	:	1.19	,
+Se	:	1.16	,
+Br	:	1.14	,
+Kr	:	1.10	,
+Rb	:	2.11	,
+Sr	:	1.92	,
+Y	:	1.62	,
+Zr	:	1.48	,
+Nb	:	1.37	,
+Mo	:	1.45	,
+Tc	:	1.56	,
+Ru	:	1.26	,
+Rh	:	1.35	,
+Pd	:	1.31	,
+Ag	:	1.53	,
+Cd	:	1.48	,
+In	:	1.44	,
+Sn	:	1.41	,
+Sb	:	1.38	,
+Te	:	1.35	,
+I	:	1.33	,
+Xe	:	1.30	,
+Cs	:	2.25	,
+Ba	:	1.98	,
+La	:	1.69	,
+Ce	:	1.0	,
+Pr	:	1.0	,
+Nd	:	1.0	,
+Pm	:	1.0	,
+Sm	:	1.0	,
+Eu	:	1.0	,
+Gd	:	1.0	,
+Tb	:	1.0	,
+Dy	:	1.0	,
+Ho	:	1.0	,
+Er	:	1.0	,
+Tm	:	1.0	,
+Yb	:	1.0	,
+Lu	:	1.60	,
+Hf	:	1.50	,
+Ta	:	1.38	,
+W	:	1.46	,
+Re	:	1.59	,
+Os	:	1.28	,
+Ir	:	1.37	,
+Pt	:	1.28	,
+Au	:	1.44	,
+Hg	:	1.49	,
+Tl	:	1.48	,
+Pb	:	1.47	,
+Bi	:	1.46,
+Po	:	1.0	,
+At	:	1.0	,
+Rn	:	1.45,
+Fr	:	1.0	,
+Ra	:	1.0	,
+Ac	:	1.0	,
+Th	:	1.0	,
+Pa	:	1.0	,
+U	:	1.0	,
+Np	:	1.0	,
+Pu	:	1.0	,
+Am	:	1.0	,
+Cm	:	1.0	}    
+/////////////////COVALENT RADIUS END    
+    init();
+
+    function init() {
+      renderer = new THREE.WebGLRenderer();
+      element = renderer.domElement;
+      container = document.getElementById('example');
+      container.appendChild(element);
+
+      effect = new THREE.StereoEffect(renderer);
+
+      scene = new THREE.Scene();
+
+      camera = new THREE.PerspectiveCamera( 45, container.offsetWidth / container.offsetHeight, 1, 1000 );
+      camera.position.set(50, 300, 50);
+      camera.lookAt( scene.position );
+      scene.add(camera);
+
+      controls = new THREE.OrbitControls(camera, element);
+      controls.rotateUp(Math.PI / 0.1);
+      controls.target.set(
+        camera.position.x + 1.0,
+        camera.position.y,
+        camera.position.z
+      );
+      controls.noZoom = true;
+      controls.noPan = true;
+      controls.autoRotate = false;
+
+      function setOrientationControls(e) {
+        if (!e.alpha) {
+          return;
+        }
+
+        controls = new THREE.DeviceOrientationControls(camera, true);
+        controls.connect();
+        controls.update();
+
+        element.addEventListener('click', fullscreen, false);
+
+        window.removeEventListener('deviceorientation', setOrientationControls);
+      }
+      window.addEventListener('deviceorientation', setOrientationControls, true);
+
+      var light = new THREE.HemisphereLight(0xffffff, 0x000000, 0.6);
+      scene.add(light);
+        
+      window.addEventListener('resize', resize, false);
+      setTimeout(resize, 1);
+///////////////////////////////////////////////////////////////////////////////////////    
+    //dynamically handle every input file and also treat the .xyz file as json here.
+      loadfile('../CH3NH3PbI3_vesta.vesta',
+          parse_vesta,
+         function(xhr) { console.error(xhr); }
+        );  
+
+    }
+    
+    
+    //This function doesn't use JQuery at all. Just try to avoid loading any unnecessary library.
+    function loadfile(path, success, error)
+    {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function()
+        {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                if (xhr.status === 200) {
+                    if (success)
+                        success(xhr.responseText);
+                } else {
+                    if (error)
+                        error(xhr);
+                }
+            }
+        };
+      
+        xhr.open("GET", path, true);
+        xhr.send();
+    }
+
+    function parse_vesta(data){
+        //parse the vesta file and look for atoms
+        var res = data.split("\n");
+        var chunks;//used to hold the split chunk of a line
+        var reached = false;
+        var finished = false;
+        var coords = [0.0,0.0,0.0];
+        var proportion = 0.0;
+        var atom = "";
+        
+        for(var i = 0; i < res.length;i++){
+            chunks = res[i].split(" ");
+            var count = 0;
+            for(var k = 0; k < chunks.length; k++){
+                if(chunks[k] == "STRUC")
+                {
+                    reached = true;
+                    break;// go to the next line
+                }         
+                if(reached && chunks[k] != ""){
+                    count++;
+                    if(count == 1 && (chunks[k].indexOf('.') != -1) ){
+                        //in the second line of an atom
+                        break;
+                    }else if(count == 2 && chunks[k] != 0){
+                        atom = chunks[k];
+                        if( atom_array[atom] == undefined )
+                            atom_array[atom] = [];
+                        proportion = covalent_radius[atom];
+                        geometry = new THREE.SphereGeometry(proportion*5,8,8);
+                        material = new THREE.MeshPhongMaterial({color: atom_colors[atom]});
+                    }else if( count == 5 ){
+                        coords[0] = 100*parseFloat(chunks[k]);
+                    }else if( count == 6 ){
+                        coords[1] = 100*parseFloat(chunks[k]);
+                    }else if( count == 7 ){
+                        coords[2] = 100*parseFloat(chunks[k]);
+                        mesh = new THREE.Mesh( geometry, material );
+                        mesh.position.set(coords[0],coords[1],coords[2]); 
+                        scene.add( mesh );
+                        //keep down the atom coordinates for bond calculation  
+                        atom_array[atom].push(coords[0]);
+                        atom_array[atom].push(coords[1]);
+                        atom_array[atom].push(coords[2]); 
+                    }
+                    
+                    if(k == 3 && chunks[k] == 0){
+                        //reached end of bonds lines in vesta file
+                        finished = true;
+                        break;
+                    }
+                }        
+            }
+               
+            if(reached && finished){
+                break;                
+            }
+        }
+        create_bonds(data);
+    }
+    
+    
+    function create_bonds(data){
+        //parse the vesta file and look for bonds
+        var res = data.split("\n");
+        var chunks;//used to hold the split chunk of a line
+        var reached = false;
+        var finished = false;
+        var first_atom = "";
+        var second_atom = "";
+        var max = 0;
+        for(var i = 0; i < res.length;i++){
+            chunks = res[i].split(" ");
+            var count = 0;
+            for(var k = 0; k < chunks.length; k++){
+                if(chunks[k] == "SBOND")
+                {
+                    reached = true;
+                    break;// go to the next line
+                }         
+                if(reached && chunks[k] != "" && count < 5 ){
+                    count++;
+                    if(count == 1 && chunks[k] == 0){
+                        //reached end of bonds lines in vesta file
+                        finished = true;
+                        break;
+                    }else if( count == 2){
+                        first_atom = chunks[k];
+                    }else if( count == 3){
+                        second_atom = chunks[k];
+                    }else if( count == 5){
+                        max = parseFloat(chunks[k]);
+                        bond_helper(first_atom,second_atom,max);
+                    }else{
+                        
+                    }
+                        
+                }        
+            }
+               
+            if(reached && finished){
+                break;                
+            }
+
+
+        }        
+        
+        //after creating all the atoms and bonds, animate  
+          animate();
+        
+    }
+    
+    function bond_helper(atom_a,atom_b, max){
+        //create bonds from atom_a to atom_b
+        var max_dist = (10*max)*(10*max);
+        for(var i = 0; i < atom_array[atom_a].length; i= i+3){
+            var x1 = atom_array[atom_a][i];
+            var y1 = atom_array[atom_a][i+1];
+            var z1 = atom_array[atom_a][i+2];
+            for(var k = 0; k < atom_array[atom_b].length; k= k+3){
+                var x2 = atom_array[atom_b][k];
+                var y2 = atom_array[atom_b][k+1];
+                var z2 = atom_array[atom_b][k+2];
+                var dist = ((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1)+(z2-z1)*(z2-z1));
+                if( dist < max_dist)
+                {
+   
+                    var pointY = new THREE.Vector3(x2,y2,z2);
+                    var pointX = new THREE.Vector3(x1,y1,z1);
+                    var direction = new THREE.Vector3().subVectors( pointY, pointX );
+                    var arrow = new THREE.ArrowHelper( direction.clone().normalize(), pointX );
+
+                    // cylinder: radiusAtTop, radiusAtBottom, 
+                    //     height, radiusSegments, heightSegments
+                    
+                    var geometry = new THREE.CylinderGeometry( 1, 1, direction.length(), 6, 4 );
+                    var mesh = new THREE.Mesh( geometry, 
+                    new THREE.MeshBasicMaterial({ color: 0x606060 }));
+                    mesh.rotation.copy(new THREE.Euler().setFromQuaternion((arrow.quaternion)));
+                    mesh.position.set((x1+x2)/2,(y1+y2)/2,(z1+z2)/2);
+
+                    scene.add( mesh );
+                }
+                
+            }
+        }        
+            
+    }
+    
+///////////////////////////////////////////////////////////////////////////////////////    
+    function resize() {
+      var width = container.offsetWidth;
+      var height = container.offsetHeight;
+
+      camera.aspect = width / height;
+      camera.updateProjectionMatrix();
+
+      renderer.setSize(width, height);
+      effect.setSize(width, height);
+    }
+
+    function update(dt) {
+      resize();
+
+      camera.updateProjectionMatrix();
+
+      controls.update(dt);
+    }
+
+    function render(dt) {
+      var time = Date.now();
+      var timer = new Date().getTime() * 0.0005;
+ 
+      camera.position.x = Math.floor(Math.cos( timer ) * 200 - 250);
+      camera.position.y = Math.floor(Math.cos( timer ) * 200 - 250);
+      camera.position.z = Math.floor(Math.sin( timer ) * 200 - 250);
+    if(camera.position.z > 0)
+        console.log(camera.position.z);
+//if the z value is positive will cause a big trouble. Not sure if this is an inherent webgl problem. looking from negative z value to positive z value actually results seeing a grey wall.  
+        
+      camera.lookAt( scene.position );
+      effect.render( scene, camera);
+    }
+
+    function animate(t) {
+      requestAnimationFrame(animate);
+
+      update(clock.getDelta());
+      render(clock.getDelta());
+    }
+
+    function fullscreen() {
+      if (container.requestFullscreen) {
+        container.requestFullscreen();
+      } else if (container.msRequestFullscreen) {
+        container.msRequestFullscreen();
+      } else if (container.mozRequestFullScreen) {
+        container.mozRequestFullScreen();
+      } else if (container.webkitRequestFullscreen) {
+        container.webkitRequestFullscreen();
+      }
+    }
+  </script>
+  </body>
+</html>
+

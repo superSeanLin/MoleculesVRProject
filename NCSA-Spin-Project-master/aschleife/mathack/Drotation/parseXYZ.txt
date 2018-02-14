@@ -1,0 +1,52 @@
+    //parse the xyz file and load them into an array to be used later
+      function parseXYZ(data) { 
+            var res = data.split("\n");
+            var chunks;//used to hold the split chunk of a line
+            var coords = [0.0,0.0,0.0];
+            var xyz = 0;
+            var proportion = 0.0;
+            var atom = "";
+          
+            for(var i = 0; i < res.length;i++){
+                chunks = res[i].split(" ");
+                if(i == 0){
+                    num_atoms = parseInt(res[i]); 
+                }else if(i == 1){
+                    for(var k = 0; k < chunks.length; k++){
+                        if(chunks[k] != ""){
+                            atom_array[chunks[k]] = [];
+                        }
+                    }
+                }else{
+                    xyz = 0;
+                    for(var k = 0; k < chunks.length; k++){
+                        if(chunks[k] != ""){
+                            if (!isNaN(parseFloat(chunks[k])) && isFinite(chunks[k])) {
+                                //if is number, keeps the number
+                                coords[xyz] = 10*parseFloat(chunks[k]);
+                                xyz++;
+                            }
+                            else{
+                                    atom = chunks[k];
+                                    proportion = covalent_radius[chunks[k]];
+                                    geometry = new THREE.SphereGeometry(proportion*4,8,8);
+                                    material = new THREE.MeshPhongMaterial({color: atom_colors[chunks[k]]});
+                                }
+                        }
+                    }
+
+                    mesh = new THREE.Mesh( geometry, material );
+                    mesh.position.set(coords[0],coords[1],coords[2]); 
+                    scene.add( mesh );
+                    //keep down the atom coordinates for bond calculation  
+                    atom_array[atom].push(coords[0]);
+                    atom_array[atom].push(coords[1]);
+                    atom_array[atom].push(coords[2]);
+                    
+                    
+                }
+
+            }
+          
+    }//end of whole file
+    

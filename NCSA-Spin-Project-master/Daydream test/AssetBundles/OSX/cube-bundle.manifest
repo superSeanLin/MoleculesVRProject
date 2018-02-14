@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 3930745130
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5fbe4fd7454203bda070486fc8ad0746
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c30bef3c952cd58e329fb4ea2abf1d75
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/AssetBundleSample/SampleAssets/MyCube.prefab
+Dependencies:
+- C:/Users/Jay/Downloads/FALL2017/NCSA SPIN/NCSA-Spin-Project-master/NCSA-Spin-Project-master/Daydream
+  test/AssetBundles/OSX/material-bundle

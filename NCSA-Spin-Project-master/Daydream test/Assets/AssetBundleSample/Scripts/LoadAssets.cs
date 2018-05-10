@@ -1,8 +1,41 @@
 ﻿using UnityEngine;
 using System.Collections;
-using AssetBundles;
+//using AssetBundles;
+//using System.Collections.Generic;
 
+public class LoadAssets: MonoBehaviour
+{
+    string url = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules";
+    void Start()
+    {
+        Debug.Log("hello");
+        StartCoroutine(DownloadModel());
+    }
 
+    IEnumerator DownloadModel()
+    {
+        WWW www = new WWW(url);
+        yield return www;
+        AssetBundle assetBundle = www.assetBundle;
+        if(www.error != "")
+        {
+            Debug.Log("There was a problem loading asset bundles.");
+        }
+        GameObject mc = Instantiate(assetBundle.LoadAsset("LAO.fbx")) as GameObject;
+        Vector3 size = new Vector3(2f, 2f, 2f);
+        Vector3 slideRight = new Vector3(390.0f, 365.0f, 0.0f);
+        Vector3 rotation = new Vector3(0.0f, 0.0f, 0.0f);
+        mc.transform.localScale = size;
+        mc.transform.position = slideRight;
+        mc.tag = "mc";
+        Canvas canvas = FindObjectOfType<Canvas>();
+        mc.transform.SetParent(canvas.transform);
+        assetBundle.Unload(false);
+        DontDestroyOnLoad(mc);
+    } 
+}
+
+/*
 public class LoadAssets : MonoBehaviour
 {
 	public const string AssetBundlesOutputPath = "/AssetBundles/";
@@ -74,3 +107,4 @@ public class LoadAssets : MonoBehaviour
 		Debug.Log(assetName + (prefab == null ? " was not" : " was")+ " loaded successfully in " + elapsedTime + " seconds" );
 	}
 }
+*/

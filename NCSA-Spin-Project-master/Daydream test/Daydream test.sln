@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daydream test", "Daydream test.csproj", "{84006984-E015-32E9-4AE6-E1A161182B69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daydream test.Editor", "Daydream test.Editor.csproj", "{6981BAEA-5E4F-7FBC-C267-F211EE9CAD48}"

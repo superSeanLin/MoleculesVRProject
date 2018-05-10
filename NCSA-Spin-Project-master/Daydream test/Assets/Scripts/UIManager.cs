@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.EventSystems;
 using System;
 using System.IO;
 
 public class UIManager : MonoBehaviour
 {
-
+    public static GameObject selected;
+    string manifest = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules.manifest";
     GameObject[] pauseObjects;
     public int count;
     public static List<string> moleculeNames = new List<string>();
@@ -16,21 +17,37 @@ public class UIManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Time.timeScale = 1;
-        pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
+        StartCoroutine(ReadManifest());
+    }
+
+    IEnumerator ReadManifest() {
+        // Time.timeScale = 1;
+        // pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
         //hidePaused();
         ///////////////////////
-        string path = Directory.GetCurrentDirectory() + @"\AssetBundles";
 
-        Debug.Log("Current directory is " + path);
-        if (Directory.Exists(path))
+        // string path = Directory.GetCurrentDirectory() + @"\AssetBundles";
+        // Debug.Log("Current directory is " + path);
+        WWW www = new WWW(manifest);
+        yield return www;
+        if(www.error != null)
         {
+            Debug.Log("Error in retrieving manifest file.");
+        }
+
+        else {
+       // if (Directory.Exists(path))
+      //  {
             count = 0;
             string begLine = "- Assets/Molecules/";
-            StreamReader reader = File.OpenText(path + @"\OSX\molecules.manifest");
-            string line;
-            while((line = reader.ReadLine()) != null)
+            // StreamReader reader = File.OpenText(path + @"\Android\molecules.manifest");
+            string stringFromFile = www.text;
+            List<string> lines = new List<string>(stringFromFile.Split(new string[] { "\r", "\n" },StringSplitOptions.RemoveEmptyEntries));
+            //string line;
+           // while((line = reader.ReadLine()) != null)
+           foreach(var manifestLine in lines)
             {
+                string line = manifestLine;
                 if (line.Contains(begLine))
                 {
                     count++;
@@ -38,10 +55,6 @@ public class UIManager : MonoBehaviour
                     moleculeNames.Add(line.Remove(0, begLine.Length));
                 }
             }
-            /*foreach (string i in moleculeNames)
-            {
-                Debug.Log(i);
-            }*/
         
         }
         foreach(string i in moleculeNames)
@@ -59,7 +72,7 @@ public class UIManager : MonoBehaviour
     {
 
         //uses the p button to pause and unpause the game
-        if (Input.GetKeyDown(KeyCode.P))
+       /* if (Input.GetKeyDown(KeyCode.P))
         {
             if (Time.timeScale == 1)
             {
@@ -72,7 +85,7 @@ public class UIManager : MonoBehaviour
                 Time.timeScale = 1;
                 hidePaused();
             }
-        }
+        }*/
     }
 
 
@@ -116,17 +129,17 @@ public class UIManager : MonoBehaviour
     }
 
     //loads inputted level
-    public void LoadLevel(string level)
+    public void LoadLevel(string moleculeName)
     {
         Application.LoadLevel("SPIN6.26");
     }
 
-    public static void LoadMLevel()
+    public void LoadMLevel(BaseEventData data)
     {
-        //Object[].FindObjectsOfType(Button) GetComponentInChildren<Text>().text == "untitled")
-        //{
-            Application.LoadLevel("SPIN6.26");
-        //}
+        // Application.LoadLevel(AddButtons.moleculeName.GetComponentInChildren<Text>().text);
+        PointerEventData ped = (PointerEventData)data;
+        selected = ped.pointerPress;
+       // Application.LoadLevel("SPIN6.26");
     }
 
 }

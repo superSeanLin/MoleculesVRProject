@@ -1,0 +1,104 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+    Driver:   21.21.13.7866
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
+Loading C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
+- Completed reload, in  0.026 seconds
+Platform assembly: C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\daydream_windows_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.107556 ms
+No controller support on this platform.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Current directory is C:\Users\Jay\Downloads\FALL2017\MoleculesVRProject\NCSA-Spin-Project-master\Daydream test\AssetBundles
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CuZnSnS
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Potassium-Ferricyanide_K3Fe(CN)6_mp-541627
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+untitled
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+KDP_KP
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+LAO
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[AssetBundleManager] Loading Asset Bundle Manifest: Windows
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnityEngine.GameObject
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnityEngine.GameObject
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnityEngine.GameObject
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnityEngine.GameObject
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnityEngine.GameObject
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 12fc -> priority: 1 
+  Thread -> id: 5144 -> priority: 1 
+Failed downloading bundle Windows from C:/Users/Jay/Downloads/FALL2017/MoleculesVRProject/NCSA-Spin-Project-master/Daydream test/daydream_windows_Data/Windows/Windows: Protocol "C" not supported or disabled in libcurl
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[AssetBundleManager] Loading LAO from molecules bundle
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at AssetBundles.AssetBundleManager.RemapVariantName (System.String assetBundleName) [0x00000] in <filename unknown>:0 
+  at AssetBundles.AssetBundleManager.LoadAssetAsync (System.String assetBundleName, System.String assetName, System.Type type) [0x00000] in <filename unknown>:0 
+  at LoadAssets+<InstantiateGameObjectAsync>c__Iterator2.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto_Internal(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+<Start>c__Iterator0:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename:  Line: -1)
+

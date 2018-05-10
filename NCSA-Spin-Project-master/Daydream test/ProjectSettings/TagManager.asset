@@ -8,6 +8,7 @@ TagManager:
   - Canvas
   - mc
   - canvas
+  - b
   layers:
   - Default
   - TransparentFX

@@ -1,40 +1,52 @@
 ﻿using UnityEngine;
 using System.Collections;
-//using AssetBundles;
-//using System.Collections.Generic;
+using AssetBundles;
+using System.Collections.Generic;
 
 public class LoadAssets: MonoBehaviour
 {
-    string url = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules";
-    void Start()
+    private string url = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules";
+    public Canvas myCanvas;
+    private UIManager uiManager;
+
+    IEnumerator Start()
     {
-        Debug.Log("hello");
+    	uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
+    	// wait ReadManifest finish and update the count
+        yield return uiManager;
+        myCanvas = FindObjectOfType<Canvas>();;
         StartCoroutine(DownloadModel());
     }
 
     IEnumerator DownloadModel()
     {
+    	// load assetBundle
         WWW www = new WWW(url);
         yield return www;
         AssetBundle assetBundle = www.assetBundle;
-        if(www.error != "")
+        if(!string.IsNullOrEmpty(www.error))
         {
             Debug.Log("There was a problem loading asset bundles.");
         }
-        GameObject mc = Instantiate(assetBundle.LoadAsset("LAO.fbx")) as GameObject;
+        // between 0 ~ (count-1)
+        int random_number = Mathf.RoundToInt(Random.value * (uiManager.count - 1));
+        // copy and set
+        GameObject molecule = Instantiate(assetBundle.LoadAsset(UIManager.moleculeNames[random_number] + ".fbx")) as GameObject;
         Vector3 size = new Vector3(2f, 2f, 2f);
         Vector3 slideRight = new Vector3(390.0f, 365.0f, 0.0f);
         Vector3 rotation = new Vector3(0.0f, 0.0f, 0.0f);
-        mc.transform.localScale = size;
-        mc.transform.position = slideRight;
-        mc.tag = "mc";
-        Canvas canvas = FindObjectOfType<Canvas>();
-        mc.transform.SetParent(canvas.transform);
+        molecule.transform.localScale = size;
+        molecule.transform.position = slideRight;
+        molecule.tag = "mc";
+        // set molecule parent
+        molecule.transform.SetParent(myCanvas.transform);
+        // free assetbundle and real object will be intact
         assetBundle.Unload(false);
-        DontDestroyOnLoad(mc);
-    } 
+        DontDestroyOnLoad(molecule);
+    }
 }
 
+// maybe try this out later
 /*
 public class LoadAssets : MonoBehaviour
 {
@@ -46,7 +58,7 @@ public class LoadAssets : MonoBehaviour
 	IEnumerator Start ()
 	{
         assetBundleName = "molecules";
-        assetName = "LAO";
+        assetName = "LAO.fbx";
 		yield return StartCoroutine(Initialize() );
 		
 		// Load asset.
@@ -66,7 +78,7 @@ public class LoadAssets : MonoBehaviour
 		AssetBundleManager.SetDevelopmentAssetBundleServer ();
 		#else
 		// Use the following code if AssetBundles are embedded in the project for example via StreamingAssets folder etc:
-		AssetBundleManager.SetSourceAssetBundleURL(Application.dataPath + "/");
+		AssetBundleManager.SetSourceAssetBundleURL("http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles");
 		// Or customize the URL based on your deployment or configuration
 		//AssetBundleManager.SetSourceAssetBundleURL("http://www.MyWebsite/MyAssetBundles");
 		#endif

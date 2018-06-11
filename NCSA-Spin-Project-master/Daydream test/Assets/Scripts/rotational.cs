@@ -6,31 +6,33 @@ using UnityEngine.EventSystems;
 
 public class rotational : MonoBehaviour
 {
-    int i;
-    string url = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules";
-    public GameObject camera;
-    string objectName;
+    private string url = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules";
+    private string objectName = "LAO";
+    
     // Use this for initialization
-   /* void Start()
+    void Start()
     {
-        StartCoroutine(LoadObject(0));
-        i = 1;
-    }*/
+        StartCoroutine(LoadObject());
+    }
 
-    IEnumerator LoadObject(int i)
+    IEnumerator LoadObject()
     {
         WWW www = new WWW(url);
         yield return www;
         AssetBundle assetBundle = www.assetBundle;
-        if (www.error != "")
+        if (!string.IsNullOrEmpty(www.error))
         {
             Debug.Log("There was a problem loading asset bundles.");
         }
-        //objectName = ObjMessage.mcName;
-        GameObject mc = Instantiate(assetBundle.LoadAsset(UIManager.moleculeNames[i] + ".fbx")) as GameObject;
-        mc.transform.position = new Vector3(0f, 0f, 10f);
-        mc.tag = "mc";
+        GameObject molecule = Instantiate(assetBundle.LoadAsset(objectName + ".fbx")) as GameObject;
+        Vector3 size = new Vector3(2f, 2f, 2f);
+        Vector3 slideRight = new Vector3(0.0f, 0.0f, 10.0f);
+        Vector3 rotation = new Vector3(0.0f, 0.0f, 0.0f);
+        molecule.transform.localScale = size;
+        molecule.transform.position = slideRight;
+        molecule.tag = "edmc";
         assetBundle.Unload(false);
+        DontDestroyOnLoad(molecule);
     }
 
     // Update is called once per frame
@@ -54,16 +56,20 @@ public class rotational : MonoBehaviour
                  GameObject.FindGameObjectWithTag("mc").transform.localRotation = GvrController.Orientation;
          }
      }*/
-
+/*
     private void Start()
     {
-        Object.Instantiate(poscar, new Vector3(0, 0, 20), Quaternion.identity);
-        poscar.gameObject.tag = "edmc";
+        GameObject poscar_copy = Instantiate(poscar, new Vector3(0, 0, 20), Quaternion.identity) as GameObject;
+        poscar_copy.tag = "edmc";
         
     }
+*/
     public GameObject poscar;
     void Update()
     {
-        poscar.transform.localRotation = Quaternion.Euler(Time.deltaTime, 0.0f, 0.0f);
+        GameObject []poscar_copy = GameObject.FindGameObjectsWithTag("edmc"); 
+        foreach (GameObject i in poscar_copy) 
+            i.transform.Rotate(Vector3.down * Time.deltaTime* 10.0f);
+        //poscar.transform.localRotation = Quaternion.Euler(Time.deltaTime, 0.0f, 0.0f);
     }
 }

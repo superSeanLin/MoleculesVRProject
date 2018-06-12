@@ -35,3 +35,7 @@ This will automatically generate a folder with the path MoleculesVRProject > NCS
 There will be 4 files of interest. The first two are called Android and Android.manifest which do not need to be added to the server. They contain a directory of all AssetBundles that were generated. A different AssetBundle will be created for each tag that exists. All assets with the same tag will be in the same AssetBundle. The next two files should be named molecules and molecules.manifest. These must be placed on the server. Refer to Dr. Schleife for help with adding the updated files to the web server. Note that the files should REPLACE the outdated ones with the same path. This must be done with respect for consistency with the scripts that Unity will use when retrieving the AssetBundles from the server. The molecules file contains the compressed asset data and the manifest file contains a directory of assets contained within the AssetBundle. Both files are used in scripting. Before placing the files on the web server, verify that all the assets are listed in the manifest file.
 
 As of 5 June 2018, the VASP and CHGAR density files are needed to be added to the AssetBundles.
+
+Try to figure out a way to automatically output .fbx files with .vesta files. But failed, because VESTA software doesn't support command line. Still try to write a script that help blender import .xyz files and export .fbx files.
+
+As of 12 June 2018.

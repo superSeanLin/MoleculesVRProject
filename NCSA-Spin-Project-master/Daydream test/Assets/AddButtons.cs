@@ -32,6 +32,7 @@ public class AddButtons : MonoBehaviour {
             newButton.transform.localScale = new Vector3 (0.75f, 0.75f, 0.75f);
             Button b = newButton.GetComponent<Button>();
             b.GetComponentInChildren<Text>().text = UIManager.moleculeNames[i];
+            b.name = UIManager.moleculeNames[i];
             // we can use tag to create click event
             b.tag = "b";
         }

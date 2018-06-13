@@ -12,11 +12,14 @@ public class UIManager : MonoBehaviour
     private string manifest = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules.manifest";
     // number of loaded molecules in assetbundle 
     public int count = 0;
-    // list of loaded molecules name
+    // list of loaded molecules name, note static
     public static List<string> moleculeNames = new List<string>();
+    public GameObject myCamera;
 
     // Use this for initialization
     void Start(){
+        myCamera = GameObject.Find("Main Camera");
+        DontDestroyOnLoad(myCamera);
         // start a new sequential processing/function/subroutine (only one is executing at any given time)
         StartCoroutine(ReadManifest());
     }

@@ -7,11 +7,13 @@ using UnityEngine.EventSystems;
 public class rotational : MonoBehaviour
 {
     private string url = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules";
-    private string objectName = "LAO";
+    private string objectName;
     
     // Use this for initialization
     void Start()
     {
+        //objectName = objMessage.unLoadMessage();
+        objectName = "LAO";
         StartCoroutine(LoadObject());
     }
 
@@ -26,13 +28,15 @@ public class rotational : MonoBehaviour
         }
         GameObject molecule = Instantiate(assetBundle.LoadAsset(objectName + ".fbx")) as GameObject;
         Vector3 size = new Vector3(2f, 2f, 2f);
-        Vector3 slideRight = new Vector3(0.0f, 0.0f, 10.0f);
+        // coordinate with camera
+        Vector3 slideRight = new Vector3(350.0f, 360.0f, 50.0f);
         Vector3 rotation = new Vector3(0.0f, 0.0f, 0.0f);
         molecule.transform.localScale = size;
         molecule.transform.position = slideRight;
         molecule.tag = "edmc";
         assetBundle.Unload(false);
-        DontDestroyOnLoad(molecule);
+        // don't need this for now
+        // DontDestroyOnLoad(molecule);
     }
 
     // Update is called once per frame

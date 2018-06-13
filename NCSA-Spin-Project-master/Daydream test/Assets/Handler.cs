@@ -4,18 +4,15 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Handler : MonoBehaviour, IPointerDownHandler, IPointerUpHandler {
+public class Handler : MonoBehaviour, IPointerClickHandler {
 
-	public void OnPointerDown(PointerEventData data)
+	public void OnPointerClick(PointerEventData data)
     {
+        // if clicked at button
         if (EventSystem.current.currentSelectedGameObject.GetComponent<Button>() != null)
         {
+            objMessage.loadMessage(gameObject.name);
             Application.LoadLevel("SPIN6.26");
         }
     }
-    public void OnPointerUp(PointerEventData data)
-    {
-
-    }
-
 }

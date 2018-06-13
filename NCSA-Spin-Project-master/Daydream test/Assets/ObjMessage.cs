@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjMessage : MonoBehaviour {
+// enough for now; might need refresh sometime later, thus maybe inherent from MonoBehaviour will be helpful
+public static class objMessage{
 
-    public static string mcName;
-    void getMessage(string name)
-    {
-        mcName = name;
+    private static string moleculeName;
+
+    public static void loadMessage(string name){
+        moleculeName = name;
+    }
+
+    public static string unLoadMessage(){
+    	return moleculeName;
     }
 }

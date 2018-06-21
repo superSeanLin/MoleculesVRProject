@@ -7,8 +7,8 @@ TagManager:
   - ShowOnPause
   - Canvas
   - mc
-  - canvas
   - b
+  - edmc
   layers:
   - Default
   - TransparentFX

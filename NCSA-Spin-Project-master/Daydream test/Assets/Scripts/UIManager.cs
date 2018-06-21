@@ -9,22 +9,24 @@ using System.IO;
 public class UIManager : MonoBehaviour
 {
     // absolute path storing the assetbundle manifest
-    private string manifest = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules.manifest";
+    // private string manifest = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules.manifest";
     // number of loaded molecules in assetbundle 
     public int count = 0;
     // list of loaded molecules name, note static
     public static List<string> moleculeNames = new List<string>();
-    public GameObject myCamera;
+    public GameObject player;
 
     // Use this for initialization
     void Start(){
-        myCamera = GameObject.Find("Main Camera");
-        DontDestroyOnLoad(myCamera);
+        // My thought: this two lines may generate errors
+        // player = GameObject.Find("Player");
+        // DontDestroyOnLoad(player);
         // start a new sequential processing/function/subroutine (only one is executing at any given time)
         StartCoroutine(ReadManifest());
     }
 
     IEnumerator ReadManifest(){
+        /*
         // start a download in the background by calling WWW(url) which returns a new WWW object
         WWW www = new WWW(manifest);
         yield return www;
@@ -47,6 +49,28 @@ public class UIManager : MonoBehaviour
                 }
             }
         }
+        */
+        // load assetBundle from local path
+        string url = Application.dataPath + "/../AssetBundles/Android/molecules.manifest";
+        string stringFromFile = System.IO.File.ReadAllText(@url);
+        if (string.IsNullOrEmpty(stringFromFile)) {
+            Debug.Log("Error in retrieving manifest file.");
+        }
+        else{
+            count = 0;
+            string begLine = "- Assets/Molecules/";
+            // split text into string list
+            List<string> lines = new List<string>(stringFromFile.Split(new string[] { "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries));
+           foreach(var manifestLine in lines){
+                if (manifestLine.Contains(begLine)){
+                    count++;
+                    string line = manifestLine.Remove(manifestLine.Length - ".fbx".Length);
+                    // add new name at the end of the list
+                    moleculeNames.Add(line.Remove(0, begLine.Length));
+                }
+            }
+        }
+        yield return stringFromFile;
     }
 
     // Update is called once per frame

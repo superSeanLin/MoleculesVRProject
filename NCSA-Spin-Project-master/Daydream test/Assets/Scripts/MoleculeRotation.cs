@@ -13,6 +13,6 @@ public class MoleculeRotation : MonoBehaviour {
 	void Update () {
         GameObject []myMolecule = GameObject.FindGameObjectsWithTag("mc"); 
         foreach (GameObject i in myMolecule) 
-            i.transform.Rotate(Vector3.down * Time.deltaTime* 10.0f);
+            i.transform.Rotate(Vector3.down * Time.deltaTime * 10.0f);
 	}
 }

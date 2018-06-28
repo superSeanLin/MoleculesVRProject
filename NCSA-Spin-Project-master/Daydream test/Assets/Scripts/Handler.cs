@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Handler : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerEnterHandler {
+public class Handler : MonoBehaviour, IPointerClickHandler{
 
 	public void OnPointerClick(PointerEventData data){
         // if clicked at button
@@ -14,14 +14,7 @@ public class Handler : MonoBehaviour, IPointerClickHandler, IPointerDownHandler,
         {
             objMessage.loadMessage(gameObject.name);
             Application.LoadLevel("SPIN6.26");
+            objMessage.revolve();
         }
-    }
-
-    public void OnPointerDown(PointerEventData eventData){
-        Debug.Log ("Pointer Enter..");
-    }
-
-    public void OnPointerEnter(PointerEventData eventData){
-        Debug.Log ("Pointer Enter..");
     }
 }

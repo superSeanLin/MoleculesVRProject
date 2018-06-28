@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SPIN6.26.unity
+- path: Assets/Scenes/New_Menu.unity
   isLoaded: 1
   isActive: 1

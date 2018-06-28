@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1458858862
+CRC: 34076783
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e9ccd06d273841b95af305091ff24dbc
+    Hash: e370448f061041c2603999c1b1f7b1f5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 83f1af58af3dd6d8a4a1d48fd25504d7
+    Hash: 7b3e506932349f67a7c4cb6d46637ab0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -23,14 +23,12 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
-- Class: 108
-  Script: {instanceID: 0}
 Assets:
-- Assets/Molecules/LAO.fbx
-- Assets/Molecules/test3.fbx
-- Assets/Molecules/test1.fbx
+- Assets/Molecules/KP(HO2)2.fbx
+- Assets/Molecules/Alum_structure.fbx
 - Assets/Molecules/K3Fe(CN)6.fbx
-- Assets/Molecules/KDP_KP.fbx
 - Assets/Molecules/CuZnSnS.fbx
-- Assets/Molecules/test2.fbx
+- Assets/Molecules/La2Al2O6.fbx
+- Assets/Molecules/BN_ZnO.fbx
+- Assets/Molecules/FeH20S2(NO7)2.fbx
 Dependencies: []

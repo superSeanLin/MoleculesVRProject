@@ -14,4 +14,18 @@ public static class objMessage{
     public static string unLoadMessage(){
     	return moleculeName;
     }
+
+    private static bool isRotational = true;
+
+    public static void pause(){
+    	isRotational = false;
+    }
+
+    public static void revolve(){
+    	isRotational = true;
+    }
+
+    public static bool loadBoolean(){
+    	return isRotational;
+    }
 }

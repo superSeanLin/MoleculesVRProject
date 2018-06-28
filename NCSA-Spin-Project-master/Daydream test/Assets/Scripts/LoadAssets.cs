@@ -15,7 +15,7 @@ public class LoadAssets: MonoBehaviour
     	uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
     	// wait ReadManifest finish and update the count
         yield return uiManager;
-        myCanvas = GameObject.Find("Canvas");
+        myCanvas = GameObject.Find("Menu_Canvas");
         StartCoroutine(DownloadModel());
     }
 
@@ -43,10 +43,9 @@ public class LoadAssets: MonoBehaviour
         GameObject molecule = Instantiate(assetBundle.LoadAsset(UIManager.moleculeNames[random_number] + ".fbx")) as GameObject;
         Vector3 size = new Vector3(5f, 5f, 5f);
         // scale : 4
-        Vector3 slideRight = new Vector3(50f, 0.0f, -250.0f);
-        Vector3 rotation = new Vector3(0.0f, 0.0f, 0.0f);
+        Vector3 position = new Vector3(50f, 0.0f, -250.0f);
         molecule.transform.localScale = size;
-        molecule.transform.position = slideRight;
+        molecule.transform.position = position;
         molecule.tag = "mc";
         molecule.name = UIManager.moleculeNames[random_number];
         // set molecule parent and set relative position

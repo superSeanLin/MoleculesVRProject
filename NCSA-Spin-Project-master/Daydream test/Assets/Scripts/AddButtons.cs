@@ -19,7 +19,7 @@ public class AddButtons : MonoBehaviour {
         // wait ReadManifest finish and update the count
         yield return uiManager.count;
         ButtonPrefab = GameObject.Find("ButtonPrefab");
-        myCanvas = GameObject.Find("Canvas");
+        myCanvas = GameObject.Find("Menu_Canvas");
         //_Handler = GameObject.Find("_Handler").GetComponent<Handler>();
         // in unity, -y upwards, +y downwards
         // scale : 4
@@ -41,6 +41,8 @@ public class AddButtons : MonoBehaviour {
             newButton.transform.SetParent(myCanvas.transform, false);
         }
         Destroy(ButtonPrefab);
+        // maybe a better way: DontDestoryOnLoad(Menu_Canvas)
+        DontDestroyOnLoad(uiManager);
 	}
 
 	// Update is called once per frame

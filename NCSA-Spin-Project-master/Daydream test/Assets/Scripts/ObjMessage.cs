@@ -28,4 +28,20 @@ public static class objMessage{
     public static bool loadBoolean(){
     	return isRotational;
     }
+
+    private static bool beingScale = false;
+
+    public static void disable_scale(){
+        beingScale = false;
+        Debug.Log(beingScale);
+    }
+
+    public static void enable_scale(){
+        beingScale = true;
+        Debug.Log(beingScale);
+    }
+
+    public static bool loadScale(){
+        return beingScale;
+    }
 }

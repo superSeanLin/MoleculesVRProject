@@ -18,6 +18,7 @@ public class Movement_Handler : MonoBehaviour, IPointerClickHandler {
 	}
 	
 	public void OnPointerClick(PointerEventData data) {
+		// GvrControllerInput.AppButton
 		if(ON_OFF_Button.GetComponentsInChildren<Text>()[0].text == "Movement Mode ON"){ // not able to move
 			// remove old Sphere Collider
 			MeshRenderer[] objects = molecule.GetComponentsInChildren<MeshRenderer>();

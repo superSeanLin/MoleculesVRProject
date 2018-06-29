@@ -6,9 +6,8 @@ using UnityEngine.UI;
 
 public class Handler : MonoBehaviour, IPointerClickHandler{
 
+    // maybe use GvrControllerInput.ClickButtonDown later
 	public void OnPointerClick(PointerEventData data){
-        // if clicked at button
-        Debug.Log(data);
         //if (EventSystem.current.currentSelectedGameObject.GetComponent<Button>() != null)
         if(gameObject.tag == "b")
         {

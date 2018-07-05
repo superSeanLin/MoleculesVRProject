@@ -43,7 +43,6 @@ public class rotational : MonoBehaviour
         GameObject molecule = Instantiate(assetBundle.LoadAsset(objectName + ".fbx")) as GameObject;
         Vector3 size = new Vector3(1f, 1f, 1f);
         // coordinate with camera
-        // Bug: show two objects in VR (coordinate slightly different)
         Vector3 slideRight = new Vector3(0.0f, 1.6f, 20.0f);
         Vector3 rotation = new Vector3(0.0f, 0.0f, 0.0f);
         molecule.transform.localScale = size;

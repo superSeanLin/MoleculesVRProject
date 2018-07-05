@@ -175,8 +175,8 @@
      <Compile Include="Assets\Scripts\Rotation_Handler.cs" />
      <Compile Include="Assets\Scripts\rotational.cs" />
      <Compile Include="Assets\Scripts\Select.cs" />
+     <Compile Include="Assets\Scripts\Swipe_Handler.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
-     <Compile Include="Assets\Swipe_Handler.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
      <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />

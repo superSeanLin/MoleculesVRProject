@@ -7,13 +7,22 @@ using UnityEngine.UI;
 // may transfer to scroll controller later
 public class Rotation_Handler : MonoBehaviour, IPointerClickHandler {
 	private GameObject molecule;
+	private GameObject[] array;
 	// use one button toggled
 	public GameObject ON_OFF_Button;
 
 	// Use this for initialization
-	void Start () {
+	public void Start () {
 		ON_OFF_Button = GameObject.Find("Rotation_Controller");
-		molecule = GameObject.FindGameObjectsWithTag("edmc")[0];
+		// yield return new WaitForSeconds(1);
+		array = GameObject.FindGameObjectsWithTag("edmc");
+	}
+
+	public void Update(){
+		if(array.Length == 0 && molecule == null){
+			array = GameObject.FindGameObjectsWithTag("edmc");
+			molecule = array[0];
+		}
 	}
 	
 	public void OnPointerClick(PointerEventData data) {

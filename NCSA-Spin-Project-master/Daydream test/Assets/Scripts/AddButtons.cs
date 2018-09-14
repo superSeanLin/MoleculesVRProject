@@ -17,13 +17,13 @@ public class AddButtons : MonoBehaviour {
 	IEnumerator Start(){
         uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
         // wait ReadManifest finish and update the count
+        // better way: Setting isPlaying delays the result until after all script code has completed for this frame
         yield return uiManager.count;
         ButtonPrefab = GameObject.Find("ButtonPrefab");
         myCanvas = GameObject.Find("Menu_Canvas");
         //_Handler = GameObject.Find("_Handler").GetComponent<Handler>();
         // in unity, -y upwards, +y downwards
         // scale : 4
-        Debug.Log(uiManager.count);
         Vector3 moveButtonDown = new Vector3(-53.0f, 70.0f, -200.0f);
         for(int i = 0; i < uiManager.count; i++){
             // copy a button and set property

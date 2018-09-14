@@ -7,14 +7,22 @@ using UnityEngine.UI;
 // maybe later use daydream app button
 public class Movement_Handler : MonoBehaviour, IPointerClickHandler {
 	private string keyword = "Ball";
-	private GameObject molecule;
+	private GameObject[] array = null;
+	private GameObject molecule = null;
 	// use one button toggled
 	public GameObject ON_OFF_Button;
 
 	// Use this for initialization
 	public void Start(){
 		ON_OFF_Button = GameObject.Find("Movement_Controller");
-		molecule = GameObject.FindGameObjectsWithTag("edmc")[0];
+		array = GameObject.FindGameObjectsWithTag("edmc");
+	}
+
+	public void Update(){
+		if(array.Length == 0 && molecule == null){
+			array = GameObject.FindGameObjectsWithTag("edmc");
+			molecule = array[0];
+		}
 	}
 	
 	public void OnPointerClick(PointerEventData data) {

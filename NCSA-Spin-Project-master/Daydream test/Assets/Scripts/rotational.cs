@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class rotational : MonoBehaviour
 {
-    // private string url = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules";
+    private string url = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules";
     private string keyword = "Ball";
     private string objectName;
     public GameObject myCanvas;
@@ -14,7 +14,7 @@ public class rotational : MonoBehaviour
     public GameObject cube;
     
     // Use this for initialization
-    IEnumerator Start(){
+    public IEnumerator Start(){
         cube = GameObject.Find("Cube");
         objectName = objMessage.unLoadMessage();
         myCanvas = GameObject.Find("Canvas");
@@ -23,9 +23,8 @@ public class rotational : MonoBehaviour
         yield return StartCoroutine(LoadObject());
     }
 
-    IEnumerator LoadObject(){
+    public IEnumerator LoadObject(){
         // load assetBundle from remote server
-        /*
         WWW www = new WWW(url);
         yield return www;
         AssetBundle assetBundle = www.assetBundle;
@@ -33,13 +32,14 @@ public class rotational : MonoBehaviour
         {
             Debug.Log("There was a problem loading asset bundles.");
         }
-        */
+        /*
         // load assetBundle from local path
         string url = Application.dataPath + "/../AssetBundles/Android/molecules";
         var assetBundle = AssetBundle.LoadFromFile(url);
         if (assetBundle == null) {
             Debug.Log("Failed to load AssetBundle!");
         }
+        */
         GameObject molecule = Instantiate(assetBundle.LoadAsset(objectName + ".fbx")) as GameObject;
         Vector3 size = new Vector3(1f, 1f, 1f);
         // coordinate with camera
@@ -93,7 +93,7 @@ public class rotational : MonoBehaviour
         yield return assetBundle;
     }
 
-    void Update(){
+    public void Update(){
         GameObject []copy = GameObject.FindGameObjectsWithTag("edmc");
         if(objMessage.loadBoolean() == true){
             foreach (GameObject i in copy) 

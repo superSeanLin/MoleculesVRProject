@@ -9,7 +9,7 @@ using System.IO;
 public class UIManager : MonoBehaviour
 {
     // absolute path storing the assetbundle manifest
-    // private string manifest = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules.manifest";
+    private string manifest = "http://web.engr.illinois.edu/~schleife/vr_app/AssetBundles/Android/molecules.manifest";
     // number of loaded molecules in assetbundle 
     public int count = 0;
     // list of loaded molecules name, note static
@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
     public GameObject player;
 
     // Use this for initialization
-    void Start(){
+    public void Start(){
         // My thought: this two lines may generate errors
         // player = GameObject.Find("Player");
         // DontDestroyOnLoad(player);
@@ -25,8 +25,7 @@ public class UIManager : MonoBehaviour
         StartCoroutine(ReadManifest());
     }
 
-    IEnumerator ReadManifest(){
-        /*
+    public IEnumerator ReadManifest(){
         // start a download in the background by calling WWW(url) which returns a new WWW object
         WWW www = new WWW(manifest);
         yield return www;
@@ -49,7 +48,7 @@ public class UIManager : MonoBehaviour
                 }
             }
         }
-        */
+        /*
         // load assetBundle from local path
         string url = Application.dataPath + "/../AssetBundles/Android/molecules.manifest";
         string stringFromFile = System.IO.File.ReadAllText(@url);
@@ -71,6 +70,7 @@ public class UIManager : MonoBehaviour
             }
         }
         yield return stringFromFile;
+        */
     }
 
     // Update is called once per frame

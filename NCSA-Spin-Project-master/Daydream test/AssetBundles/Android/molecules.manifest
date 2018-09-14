@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3608572211
+CRC: 1616348185
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 13b6757ac68618c5220e497adf5c29bf
+    Hash: 6d405af2589b7f87dabab4a8a1871e58
   TypeTreeHash:
     serializedVersion: 2
     Hash: 7b3e506932349f67a7c4cb6d46637ab0
@@ -29,7 +29,6 @@ Assets:
 - Assets/Molecules/K3Fe(CN)6.fbx
 - Assets/Molecules/CuZnSnS.fbx
 - Assets/Molecules/La2Al2O6.fbx
-- Assets/Molecules/BN_ZnO.fbx
 - Assets/Molecules/test.fbx
 - Assets/Molecules/FeH20S2(NO7)2.fbx
 Dependencies: []

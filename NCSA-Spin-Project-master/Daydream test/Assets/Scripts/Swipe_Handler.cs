@@ -12,10 +12,10 @@ public class Swipe_Handler : MonoBehaviour {
 	public UIManager uiManager;
 
 	// Use this for initialization
-	IEnumerator Start () {
+	public IEnumerator Start () {
+		// wait for loading AssetBundle
+		yield return new WaitForSeconds(1);
 		uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
-		// wait ReadManifest finish and update the count
-        yield return uiManager.count;
 		molecule = GameObject.FindGameObjectsWithTag("edmc")[0];
 		Renderer[] objects = molecule.GetComponentsInChildren<Renderer>();
 		isosurfaces = new Queue<Renderer>();
@@ -30,7 +30,7 @@ public class Swipe_Handler : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public void Update () {
 		bool beingScale = objMessage.loadScale();
 		// click AppButton to toggle beingScale
 		if(GvrControllerInput.AppButtonDown){
@@ -65,12 +65,12 @@ public class Swipe_Handler : MonoBehaviour {
 		}
 	}
 
-	Vector3 convert(Vector2 position){
+	private Vector3 convert(Vector2 position){
 		float scale = Mathf.Sqrt((position.x - 0.5f) * (position.x - 0.5f) +  Mathf.Abs(position.y - 0.5f) * Mathf.Abs(position.y - 0.5f));
 		return new Vector3(scale, scale, scale);
 	}
 
-	float convert2float(Vector2 position){
+	private float convert2float(Vector2 position){
 		float scale = Mathf.Sqrt((position.x - 0.5f) * (position.x - 0.5f) +  Mathf.Abs(position.y - 0.5f) * Mathf.Abs(position.y - 0.5f));
 		return scale;
 	}

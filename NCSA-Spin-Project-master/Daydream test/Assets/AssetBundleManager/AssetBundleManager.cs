@@ -19,6 +19,9 @@ using System.Collections.Generic;
 	7.	AssetBundle variants. A prioritized list of variants that should be used if the asset bundle with that variant exists, first variant in the list is the most preferred etc.
 */
 
+/* from bitbucket, developed by Unity group, no longer active */
+
+// need to edit this file for feature
 namespace AssetBundles
 {	
 	// Loaded assetBundle contains the references count which can be used to unload dependent assetBundles automatically.

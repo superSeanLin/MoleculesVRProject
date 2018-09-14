@@ -7,12 +7,20 @@ using UnityEngine.UI;
 public class HideHandler : MonoBehaviour, IPointerClickHandler {
 	private string keyword = "Shape_IndexedFaceSet";
 	private GameObject molecule;
+	private GameObject[] array;
 	// use one button toggled
 	public GameObject ON_OFF_Button;
 
 	public void Start(){
 		ON_OFF_Button = GameObject.Find("Polyhedral_Controller");
-		molecule = GameObject.FindGameObjectsWithTag("edmc")[0];
+		array = GameObject.FindGameObjectsWithTag("edmc");
+	}
+
+	public void Update(){
+		if(array.Length == 0 && molecule == null){
+			array = GameObject.FindGameObjectsWithTag("edmc");
+			molecule = array[0];
+		}
 	}
 
 	public void OnPointerClick(PointerEventData data){

@@ -14,7 +14,9 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+9db764bb309d46399b5c3eb3d42ce35a Assembly-CSharp.dll:.Rotation_Handler
 228303069e44eb1f7f68e3c0519e6057 Assembly-CSharp.dll:.GvrVideoPlayerTexture
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Molecular_Handler
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -114,7 +116,6 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Select
 36cd6f8d7e08dc2582ba6f6ba39df992 Assembly-CSharp.dll:GoogleVR.VideoDemo.SwitchVideos
 846f17d2b1fd8b405b1f43993d8e697d Assembly-CSharp.dll:.GvrKeyboard
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Handler
@@ -133,8 +134,10 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MoleculeRotation
 ec7197ab43ffb42a7321b609332a9861 Assembly-CSharp.dll:.GvrTrackedController
 31e91faba2267dbf8c0fe528bca54ff7 Assembly-CSharp.dll:.GvrLaserPointer
-6844454d815dccd6d29f9db620c8e03f Assembly-CSharp.dll:.rotational
-7c57916f39fad5034aedf5ae596efe2d Assembly-CSharp.dll:.LoadAssets
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Forward_Handler
+b1c17997ca82307a053c7e6c16bd3cd5 Assembly-CSharp.dll:.rotational
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Quit_Handler
+aecfa083a6016a16ca2ccde85a52bd36 Assembly-CSharp.dll:.LoadAssets
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -150,7 +153,9 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 72903e4446a2f2d54923b10a70b2c5ba Assembly-CSharp.dll:Gvr.Internal.InstantPreview
+9f7647a545c881739e29191ae81a58ce Assembly-CSharp.dll:.Swipe_Handler
 44011b67387efa624f0263267e18f8d0 Assembly-CSharp.dll:.LoadScenes
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Atomic_Handler
 1c952386af3ef6bd3c90a34c4fd12f6b Assembly-CSharp.dll:GoogleVR.GVRDemo.Teleport
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrControllerTooltipsSimple
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -170,15 +175,18 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 eca6588934e978a74735e6737af683a8 Assembly-CSharp.dll:.GvrReticlePointer
 2a13deadfd379d1bb4ab0ebd2c20ca7e Assembly-CSharp.dll:.GvrLaserVisual
-65d663aab5eda74a512720e01c7a07ef Assembly-CSharp.dll:.AddButtons
+5d2c6f6c017d929ea63c773e060cedeb Assembly-CSharp.dll:.AddButtons
 24f6a3eb1c9b232bcf23fbcef06cdf98 Assembly-CSharp.dll:.GvrControllerVisual
+9db764bb309d46399b5c3eb3d42ce35a Assembly-CSharp.dll:.HideHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.VideoDemo.ScrubberEvents
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.VideoDemo.VideoControlsManager
 81dc5af3744a08050494c77f5012051e Assembly-CSharp.dll:.GvrPointerGraphicRaycaster
 5d708ead9a8a3f8af542fec349ed718c Assembly-CSharp.dll:Gvr.Internal.EmulatorConfig
 a8b185f93b85036e13e3f553c802615a Assembly-CSharp.dll:.GvrTooltip
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Back_Handler
 764d2ecb131d46720e1b8d63b8f7c2ba Assembly-CSharp.dll:GoogleVR.KeyboardDemo.KeyboardDelegateExample
 6b8bc70a4e737406cfd584f788ef5376 Assembly-CSharp.dll:.GvrAudioSource
+9db764bb309d46399b5c3eb3d42ce35a Assembly-CSharp.dll:.Movement_Handler
 7f88db6deea6b4d2af344791aaa07731 Assembly-CSharp.dll:.GvrPointerInputModule
 7d05c1a36ca8db05546065b852216990 Assembly-CSharp.dll:.GvrController
 0993c6cb8df0e25910c3ca6e47a7f2de Assembly-CSharp.dll:GoogleVR.VideoDemo.MenuHandler
@@ -189,4 +197,4 @@ e399fc54e753911801f12ac57c8fc414 Assembly-CSharp.dll:GoogleVR.GVRDemo.GVRDemoMan
 b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadVariants
-5c10bc293d0fb482a5548df29379a11f Assembly-CSharp.dll:.UIManager
+349f0bd3c1a40bcbfbd68b12e3c0997e Assembly-CSharp.dll:.UIManager

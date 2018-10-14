@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using HoloToolkit.Unity.InputModule.Examples.Grabbables;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -6,7 +7,7 @@ using UnityEngine.UI;
 
 // maybe later use daydream app button
 public class Movement_Handler : MonoBehaviour, IPointerClickHandler {
-	private string keyword = "Ball";
+    private string keyword = "Ball";
 	private GameObject[] array = null;
 	private GameObject molecule = null;
 	// use one button toggled
@@ -34,19 +35,21 @@ public class Movement_Handler : MonoBehaviour, IPointerClickHandler {
 				GameObject atom = i.gameObject;
 				Destroy(atom.GetComponent<SphereCollider>());
 			}
-        	// add Sphere Collider
+            // add Sphere Collider
+            molecule.AddComponent<GrabbableSimple>();
 			SphereCollider collider_molecule = molecule.AddComponent<SphereCollider>() as SphereCollider;
     		collider_molecule.radius = 10;
 			ON_OFF_Button.GetComponentsInChildren<Text>()[0].text = "Movement Mode OFF";
 		}
 		else if(ON_OFF_Button.GetComponentsInChildren<Text>()[0].text == "Movement Mode OFF"){
-			// remove old Sphere Collider
-			Destroy(molecule.GetComponent<SphereCollider>());
+            Destroy(GetComponent<GrabbableSimple>());
+            // remove old Sphere Collider
+            Destroy(molecule.GetComponent<SphereCollider>());
 			// add Sphere Collider 
 			MeshRenderer[] objects = molecule.GetComponentsInChildren<MeshRenderer>();
 			foreach (MeshRenderer i in objects){
 				GameObject atom = i.gameObject;
-				if(atom.ToString().Contains(keyword)){
+                if (atom.ToString().Contains(keyword)){
 					SphereCollider collider_atom = atom.AddComponent<SphereCollider>() as SphereCollider;
 				}
 			}

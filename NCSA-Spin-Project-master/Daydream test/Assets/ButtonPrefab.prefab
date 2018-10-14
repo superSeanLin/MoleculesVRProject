@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 114207337222883792}
   - component: {fileID: 114610042488211862}
   - component: {fileID: 114102081808806966}
+  - component: {fileID: 114758215403499696}
   m_Layer: 0
   m_Name: ButtonPrefab
   m_TagString: Untagged
@@ -105,8 +106,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.97200817, g: 1, b: 0.49264705, a: 1}
+    m_PressedColor: {r: 0.4675455, g: 0.44852942, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -120,7 +121,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 114207337222883792}
+  m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -159,6 +160,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: SPIN6.26
+--- !u!114 &114758215403499696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1632038585845854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6fe6b0fe7a14c644b480a52a13883b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LogGesturesUpdateEvents: 0
 --- !u!222 &222119555613062114
 CanvasRenderer:
   m_ObjectHideFlags: 1

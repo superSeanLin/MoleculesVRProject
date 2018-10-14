@@ -9,6 +9,7 @@ TagManager:
   - mc
   - b
   - edmc
+  - UIRaycastCamera
   layers:
   - Default
   - TransparentFX
@@ -41,7 +42,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Spatial Mapping
   m_SortingLayers:
   - name: Default
     uniqueID: 0

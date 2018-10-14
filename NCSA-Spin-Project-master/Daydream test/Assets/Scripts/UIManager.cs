@@ -42,6 +42,7 @@ public class UIManager : MonoBehaviour
            foreach(var manifestLine in lines){
                 if (manifestLine.Contains(begLine)){
                     count++;
+                    Debug.Log(count);
                     string line = manifestLine.Remove(manifestLine.Length - ".fbx".Length);
                     // add new name at the end of the list
                     moleculeNames.Add(line.Remove(0, begLine.Length));

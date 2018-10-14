@@ -41,9 +41,9 @@ public class rotational : MonoBehaviour
         }
         */
         GameObject molecule = Instantiate(assetBundle.LoadAsset(objectName + ".fbx")) as GameObject;
-        Vector3 size = new Vector3(1f, 1f, 1f);
+        Vector3 size = new Vector3(0.05f, 0.05f, 0.05f);
         // coordinate with camera
-        Vector3 slideRight = new Vector3(0.0f, 1.6f, 20.0f);
+        Vector3 slideRight = new Vector3(0.0f, 1f, 1.9f);
         Vector3 rotation = new Vector3(0.0f, 0.0f, 0.0f);
         molecule.transform.localScale = size;
         molecule.transform.position = slideRight;

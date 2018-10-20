@@ -12,10 +12,10 @@ public class LoadAssets: MonoBehaviour
 
     public IEnumerator Start()
     {
-    	uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
+    	//uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
     	// wait ReadManifest finish and update the count
         yield return uiManager;
-        myCanvas = GameObject.Find("Menu_Canvas");
+        //myCanvas = GameObject.Find("Menu_Canvas");
         StartCoroutine(DownloadModel());
     }
 

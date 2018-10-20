@@ -10,8 +10,8 @@ public class Molecular_Handler : MonoBehaviour {
 	}
 	
 	public void OnGrab(){
-		Transform pointerTransform = GvrPointerInputModule.Pointer.PointerTransform;
-		transform.SetParent(pointerTransform, true);
+		//Transform pointerTransform = GvrPointerInputModule.Pointer.PointerTransform;
+		//transform.SetParent(pointerTransform, true);
 	}
 
 	public void OnRelease(){

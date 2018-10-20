@@ -36,9 +36,12 @@ namespace AssetBundles
 			case BuildTarget.StandaloneOSXIntel64:
 			case BuildTarget.StandaloneOSXUniversal:
 				return "OSX";
-				// Add more build targets for your own.
-				// If you add more targets, don't forget to add the same platforms to GetPlatformForAssetBundles(RuntimePlatform) function.
-			default:
+                // Add more build targets for your own.
+                // If you add more targets, don't forget to add the same platforms to GetPlatformForAssetBundles(RuntimePlatform) function.
+            case BuildTarget.WSAPlayer:
+                return "WSAPlayer";
+
+            default:
 				return null;
 			}
 		}

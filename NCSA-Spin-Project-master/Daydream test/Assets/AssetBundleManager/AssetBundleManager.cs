@@ -119,14 +119,16 @@ namespace AssetBundles
 	
 		private static string GetStreamingAssetsPath()
 		{
-			if (Application.isEditor)
+            /*
+            if (Application.isEditor)
 				return "file://" +  System.Environment.CurrentDirectory.Replace("\\", "/"); // Use the build output folder directly.
 			//else if (Application.isWebPlayer)
             //    return System.IO.Path.GetDirectoryName(Application.absoluteURL).Replace("\\", "/")+ "/StreamingAssets";
 			else if (Application.isMobilePlatform || Application.isConsolePlatform)
 				return Application.streamingAssetsPath;
 			else // For standalone player.
-				return "file://" +  Application.streamingAssetsPath;
+            */
+			return "file://" +  Application.streamingAssetsPath;
 		}
 	
 		public static void SetSourceAssetBundleDirectory(string relativePath)

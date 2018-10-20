@@ -197,7 +197,6 @@ LineRenderer:
     numCapVertices: 0
     alignment: 0
     textureMode: 0
-    generateLightingData: 0
   m_UseWorldSpace: 0
   m_Loop: 0
 --- !u!1 &771218441
@@ -306,7 +305,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa952cbcc0eb13d4ca558b6da550ff55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentPrefabs: []
+  attachmentPrefabs:
+  - {fileID: 1000011375678268, guid: 6e5b693d0947f4a8b85a00d3965ba64c, type: 2}
   touchPadColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
   appButtonColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
   systemButtonColor: {r: 0.078431375, g: 0.078431375, b: 0.078431375, a: 1}
@@ -392,7 +392,7 @@ MonoBehaviour:
   fadeDistanceFromHeadSide: 0.15
   tooltipMinDistanceFromFace: 0.45
   tooltipMaxAngleFromCamera: 80
-  isLockedToNeck: 0
+  isLockedToNeck: 1
 --- !u!114 &114000013395929458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -424,3 +424,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   armModel: {fileID: 114000013128025656}
   isDeactivatedWhenDisconnected: 1
+  controllerHand: 2

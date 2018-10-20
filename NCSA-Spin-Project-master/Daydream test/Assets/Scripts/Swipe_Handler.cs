@@ -24,24 +24,25 @@ public class Swipe_Handler : MonoBehaviour {
 				isosurfaces.Enqueue(i);
 		}
 		// The touch position is given as a Vector2 where X and Y range from 0 to 1. (0, 0) is the top left of the touchpad and (1, 1) is the bottom right of the touchpad
-		if(GvrControllerInput.IsTouching){
-			previous_scale = GvrControllerInput.TouchPos;
-		}
+		//if(GvrControllerInput.IsTouching){
+		//	previous_scale = GvrControllerInput.TouchPos;
+		//}
 	}
 	
 	// Update is called once per frame
 	public void Update () {
 		bool beingScale = objMessage.loadScale();
 		// click AppButton to toggle beingScale
-		if(GvrControllerInput.AppButtonDown){
-			if(beingScale){
-				objMessage.disable_scale();
-			}
-			else{
-				objMessage.enable_scale();
-			}
-		}
+		//if(GvrControllerInput.AppButtonDown){
+			//if(beingScale){
+			//	objMessage.disable_scale();
+			//}
+			//else{
+			//	objMessage.enable_scale();
+			//}
+		//}
 		// if beingScale
+        /*
 		if(beingScale && GvrControllerInput.IsTouching){
 			Vector2 current_sclae = GvrControllerInput.TouchPos;
 			offset = (convert(current_sclae) - convert(previous_scale)) * 7.0f;
@@ -63,6 +64,7 @@ public class Swipe_Handler : MonoBehaviour {
 				isosurfaces.Enqueue(i);
 			}
 		}
+        */
 	}
 
 	private Vector3 convert(Vector2 position){

@@ -55,6 +55,7 @@
      <Compile Include="Assets\AssetBundleManager\Editor\BuildScript.cs" />
      <Compile Include="Assets\AssetBundleManager\Editor\ExecuteInternalMono.cs" />
      <Compile Include="Assets\AssetBundleManager\Editor\LaunchAssetBundleServer.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Editor\PermissionsDemoBuildProcessor.cs" />
      <Compile Include="Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
@@ -70,6 +71,8 @@
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
+=======
+>>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <Compile Include="Assets\HoloToolkit\BuildAndDeploy\Editor\BuildDeployPortal.cs" />
      <Compile Include="Assets\HoloToolkit\BuildAndDeploy\Editor\BuildDeployPrefs.cs" />
      <Compile Include="Assets\HoloToolkit\BuildAndDeploy\Editor\BuildDeployTools.cs" />
@@ -160,20 +163,29 @@
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurable.cginc" />
      <None Include="Assets\HoloToolkit-Examples\Prototyping\Shaders\UnlitTransparentTriplanar.shader" />
      <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\VolumeRenderThickSlice.shader" />
+<<<<<<< HEAD
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+=======
+>>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFStandardInput.cginc" />
      <None Include="Assets\HoloToolkit-Examples\UX\Materials\AcrylicReflectiveTransparent.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\FastConfigurable.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\FastConfigurable2Sided.shader" />
+<<<<<<< HEAD
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFVertexLitCommon.cginc" />
      <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\PlaneCut.cginc" />
      <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
+=======
+     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFVertexLitCommon.cginc" />
+     <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\PlaneCut.cginc" />
+>>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\math.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitNoDepthTest.shader" />
      <None Include="Assets\HoloToolkit\UX\Fonts\LICENSE.txt" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurableTransparent.shader" />
      <None Include="Assets\HoloToolkit\Input\Shaders\Cursor.shader" />
+<<<<<<< HEAD
      <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\LambertianConfigurable.cginc" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
@@ -193,6 +205,19 @@
      <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\Occlusion.shader" />
      <None Include="Assets\HoloToolkit\MRTKVersion.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
+=======
+     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\LambertianConfigurable.cginc" />
+     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurable.shader" />
+     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\StandardFast.shader" />
+     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\LambertianConfigurable.shader" />
+     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurableTransparent.shader" />
+     <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\Wireframe.shader" />
+     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFConstant.shader" />
+     <None Include="Assets\HoloToolkit\Input\Shaders\CursorShader.shader" />
+     <None Include="Assets\HoloToolkit\Input\Shaders\EditorHands.shader" />
+     <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\Occlusion.shader" />
+     <None Include="Assets\HoloToolkit\MRTKVersion.txt" />
+>>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFStandard.shader" />
      <None Include="Assets\HoloToolkit\SpatialUnderstanding\Materials\SpatialMappingSurface.shader" />
      <None Include="Assets\HoloToolkit-Examples\Prototyping\Shaders\UnlitTriplanar.shader" />
@@ -205,22 +230,32 @@
      <None Include="Assets\HoloToolkit\UX\Shaders\DebugNormals.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\macro.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\HoloToolkitCommon.cginc" />
+<<<<<<< HEAD
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
      <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\Alpha-Diffuse.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+=======
+     <None Include="Assets\HoloToolkit\UX\Shaders\Alpha-Diffuse.shader" />
+>>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit\Common\Shaders\Standard.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurableTransparent.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\HUXButtonHighlightShader.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurable.cginc" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFMobileCommon.cginc" />
+<<<<<<< HEAD
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
      <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
+=======
+>>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit-Examples\UX\Materials\AcrylicReflective.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\Occlusion.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\MovieMask.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\StereoImage.shader" />
+<<<<<<< HEAD
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
+=======
+>>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit\License.txt" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurable.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\LuminousUnity.shader" />
@@ -286,6 +321,7 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Unity 2017.2.1p2/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+<<<<<<< HEAD
  </Reference>
  <Reference Include="UnityEditor.WSA.Extensions">
  <HintPath>D:/Unity 2017.2.1p2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll</HintPath>
@@ -302,6 +338,21 @@
  <Reference Include="Newtonsoft.Json">
  <HintPath>C:/Users/nrebe/Desktop/MoleculesVRProject-master/NCSA-Spin-Project-master/Daydream test/Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
  </Reference>
+=======
+ </Reference>
+ <Reference Include="UnityEditor.WSA.Extensions">
+ <HintPath>D:/Unity 2017.2.1p2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Unity 2017.2.1p2/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="GLTFSerialization">
+ <HintPath>C:/Users/nrebe/Desktop/Unity Projects/MoleculesVRProject Experimenting/NCSA-Spin-Project-master/Daydream test/Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/GLTFSerialization/GLTFSerialization.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/nrebe/Desktop/Unity Projects/MoleculesVRProject Experimenting/NCSA-Spin-Project-master/Daydream test/Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+>>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/nrebe/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

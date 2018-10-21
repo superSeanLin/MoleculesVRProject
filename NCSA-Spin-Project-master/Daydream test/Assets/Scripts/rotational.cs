@@ -43,11 +43,7 @@ public class rotational : MonoBehaviour
         GameObject molecule = Instantiate(assetBundle.LoadAsset(objectName + ".fbx")) as GameObject;
         Vector3 size = new Vector3(0.05f, 0.05f, 0.05f);
         // coordinate with camera
-<<<<<<< HEAD
-        Vector3 slideRight = new Vector3(0.0f, 1f, 1.9f);
-=======
         Vector3 slideRight = new Vector3(0.557f, 1f, 0.843f);
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
         Vector3 rotation = new Vector3(0.0f, 0.0f, 0.0f);
         molecule.transform.localScale = size;
         molecule.transform.position = slideRight;

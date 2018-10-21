@@ -89,12 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-<<<<<<< HEAD
-  m_LightingDataAsset: {fileID: 0}
-=======
   m_LightingDataAsset: {fileID: 112000002, guid: 52ee21172d7ad6f46b2779e399eecbed,
     type: 2}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -118,8 +114,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &33656416
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +327,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 43551781}
   m_Mesh: {fileID: 4300000, guid: 07280da9da392aa4c9dbcb563adc57f9, type: 3}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 --- !u!1 &72627258
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,11 +393,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-<<<<<<< HEAD
-  m_Camera: {fileID: 1033104853}
-=======
   m_Camera: {fileID: 0}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_PlaneDistance: 10
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -426,16 +415,6 @@ RectTransform:
   m_LocalScale: {x: 0.009293365, y: 0.009293365, z: 0.009293365}
   m_Children:
   - {fileID: 1446926220}
-<<<<<<< HEAD
-  - {fileID: 867295390}
-  - {fileID: 1455020709}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 50, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 15, y: 6.05}
-=======
   - {fileID: 1073546470}
   - {fileID: 114101303}
   m_Father: {fileID: 1408230085}
@@ -444,7 +423,6 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -1.8980689, y: -0.32049084}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_SizeDelta: {x: 678, y: 497}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72627263
@@ -474,8 +452,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Canvas: {fileID: 72627261}
-<<<<<<< HEAD
-=======
 --- !u!1 &108973340
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,7 +543,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 108973340}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 --- !u!1 &114101302
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,27 +568,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 114101302}
-<<<<<<< HEAD
-  m_LocalRotation: {x: -0, y: 0.42261827, z: -0, w: 0.9063078}
-  m_LocalPosition: {x: 0, y: 0, z: -71.793144}
-  m_LocalScale: {x: 6.588691, y: 6.4171267, z: 6.6607943}
-=======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.26224554}
   m_LocalScale: {x: 1.0008069, y: 0.99985296, z: 1.0008069}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_Children:
   - {fileID: 1055374771}
-  m_Father: {fileID: 1455020709}
-  m_RootOrder: 0
+  m_Father: {fileID: 72627262}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-  m_AnchoredPosition: {x: 5199.0312, y: -736.6504}
-=======
   m_AnchoredPosition: {x: -24.99414, y: -44.867645}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &114101304
@@ -662,8 +627,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 114048868017712170, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
+  m_TargetGraphic: {fileID: 114101306}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -732,25 +696,12 @@ Transform:
   m_LocalPosition: {x: -6.04, y: -0.33, z: 0.76}
   m_LocalScale: {x: 2.5, y: 3.1000018, z: 2.500001}
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 1112724829}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: 200}
-  m_SizeDelta: {x: 179.8, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &176441467
-MonoBehaviour:
-=======
   m_Father: {fileID: 365424987}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
 --- !u!95 &125548169
 Animator:
   serializedVersion: 3
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 95985888545346864, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
@@ -772,58 +723,6 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 23080014068216054, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 176441465}
---- !u!1001 &347016665
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4000011792100794, guid: a611e772ef8ddf64d8106a9cbb70f31c, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011792100794, guid: a611e772ef8ddf64d8106a9cbb70f31c, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011792100794, guid: a611e772ef8ddf64d8106a9cbb70f31c, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011792100794, guid: a611e772ef8ddf64d8106a9cbb70f31c, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011792100794, guid: a611e772ef8ddf64d8106a9cbb70f31c, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011792100794, guid: a611e772ef8ddf64d8106a9cbb70f31c, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011792100794, guid: a611e772ef8ddf64d8106a9cbb70f31c, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011792100794, guid: a611e772ef8ddf64d8106a9cbb70f31c, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: a611e772ef8ddf64d8106a9cbb70f31c, type: 2}
-  m_IsPrefabParent: 0
---- !u!114 &347016666 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114611684728110934, guid: a611e772ef8ddf64d8106a9cbb70f31c,
-    type: 2}
-  m_PrefabInternal: {fileID: 347016665}
-  m_Script: {fileID: 11500000, guid: 0decd33ba8702954885a62b5bc1a778e, type: 3}
---- !u!1 &368087128
-=======
   m_GameObject: {fileID: 125548167}
   m_Enabled: 1
   m_CastShadows: 1
@@ -862,7 +761,6 @@ MeshFilter:
   m_GameObject: {fileID: 125548167}
   m_Mesh: {fileID: 4300000, guid: 15811c9651d66c248895f85628522d2e, type: 3}
 --- !u!1 &130499800
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1553763696252706, guid: 6c4cc0d7eeed05a47ba91c4628625923,
@@ -870,13 +768,7 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 368087130}
-  - component: {fileID: 368087129}
-  - component: {fileID: 368087131}
-=======
   - component: {fileID: 130499801}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_Layer: 0
   m_Name: Desk
   m_TagString: Untagged
@@ -890,32 +782,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4838980376049664, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 368087128}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2578125, y: 7.2390594, z: 4.6153564}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &368087131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 368087128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28c65dcfa65feae40be7f8ffb4d972d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grabSpot: {fileID: 0}
-  grabStyle: 0
-  matchPosition: 1
-  matchRotation: 0
---- !u!1 &433658874
-=======
   m_GameObject: {fileID: 130499800}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: -0.5}
   m_LocalPosition: {x: -0.573, y: -1.1, z: 1.34}
@@ -927,7 +793,6 @@ MonoBehaviour:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &136980920
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1506243144883172, guid: 6c4cc0d7eeed05a47ba91c4628625923,
@@ -1058,10 +923,6 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 433658874}
---- !u!1 &627935320
-=======
   m_GameObject: {fileID: 137743611}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1267,7 +1128,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 176441465}
 --- !u!1 &186646944
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1379160512512236, guid: 80a166e9e0e20ed418b92b8e0183c9c6,
@@ -1325,17 +1185,6 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 114193033294314550, guid: 80a166e9e0e20ed418b92b8e0183c9c6,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 627935320}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 27.5, z: 50}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &627935323
-=======
   m_GameObject: {fileID: 186646944}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1373,7 +1222,6 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &186646948
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 114770843431897874, guid: 80a166e9e0e20ed418b92b8e0183c9c6,
@@ -1404,58 +1252,11 @@ MonoBehaviour:
 --- !u!222 &186646949
 CanvasRenderer:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 424718, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 424718, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 424718, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 424718, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 424718, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 424718, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 424718, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 424718, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198490, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 5ca80f4596fa44b87912a0592346d260, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &687366866
-=======
   m_PrefabParentObject: {fileID: 222947543648498190, guid: 80a166e9e0e20ed418b92b8e0183c9c6,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 186646944}
 --- !u!1 &192276659
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1795677750550380, guid: 6c4cc0d7eeed05a47ba91c4628625923,
@@ -1463,45 +1264,22 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 687366867}
-  - component: {fileID: 687366869}
-  - component: {fileID: 687366868}
-  m_Layer: 5
-  m_Name: Text
-=======
   - component: {fileID: 192276660}
   - component: {fileID: 192276662}
   - component: {fileID: 192276661}
   m_Layer: 0
   m_Name: FacetsBase
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!224 &687366867
-RectTransform:
-=======
 --- !u!4 &192276660
 Transform:
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4050442167447802, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 687366866}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1932560422}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 192276659}
   m_LocalRotation: {x: 0.027760856, y: 0.027760854, z: 0.7065617, w: 0.7065616}
   m_LocalPosition: {x: -2231, y: -240, z: 411}
@@ -6536,15 +6314,11 @@ RectTransform:
   m_Father: {fileID: 935025368}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
---- !u!114 &687366868
-=======
 --- !u!114 &1454387744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7230,52 +7004,11 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 142, z: 0}
 --- !u!114 &1615397597
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 114189346437398522, guid: e290f131ccb246d4d90d79bf8197fb26,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 687366866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Rotation Mode OFF
---- !u!222 &687366869
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 687366866}
---- !u!1 &728324567
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1642748566980520, guid: 3911644b9950d154299c4199a0eb360d,
-=======
   m_GameObject: {fileID: 1615397595}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -7305,221 +7038,21 @@ MonoBehaviour:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1480205541602822, guid: 6c4cc0d7eeed05a47ba91c4628625923,
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
     type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 728324568}
-  - component: {fileID: 728324572}
-  - component: {fileID: 728324571}
-  - component: {fileID: 728324570}
-  - component: {fileID: 728324569}
-  m_Layer: 5
-  m_Name: Canvas (1)
-=======
   - component: {fileID: 1623759862}
   - component: {fileID: 1623759865}
   - component: {fileID: 1623759864}
   - component: {fileID: 1623759863}
   m_Layer: 0
   m_Name: Plane (3)
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!224 &728324568
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224334988092599410, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728324567}
-  m_LocalRotation: {x: -0, y: 0.42261827, z: -0, w: 0.9063078}
-  m_LocalPosition: {x: 0, y: 0, z: -449.27197}
-  m_LocalScale: {x: 0.14663543, y: 0.1561236, z: 0.15612361}
-  m_Children:
-  - {fileID: 1394888626}
-  m_Father: {fileID: 1112724829}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 680.5152, y: 163.10617}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &728324569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114797491607231350, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728324567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b53a08633f4be64bb98f816076fa5f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &728324570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114276898691934128, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728324567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2aebab3047f2113489ca3eb8423228b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Canvas: {fileID: 728324572}
---- !u!114 &728324571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114478018535048760, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728324567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!223 &728324572
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 223459282838254322, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728324567}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!1 &867295389
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1642748566980520, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 867295390}
-  - component: {fileID: 867295394}
-  - component: {fileID: 867295393}
-  - component: {fileID: 867295392}
-  - component: {fileID: 867295391}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &867295390
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224334988092599410, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 867295389}
-  m_LocalRotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
-  m_LocalPosition: {x: 0, y: 0, z: -575.6403}
-  m_LocalScale: {x: 0.146455, y: 0.15559848, z: 0.1555985}
-  m_Children:
-  - {fileID: 1073546470}
-  m_Father: {fileID: 72627262}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -108.621925, y: 163.27762}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &867295391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114797491607231350, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 867295389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b53a08633f4be64bb98f816076fa5f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &867295392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114276898691934128, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 867295389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2aebab3047f2113489ca3eb8423228b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Canvas: {fileID: 867295394}
---- !u!114 &867295393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114478018535048760, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 867295389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!223 &867295394
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 223459282838254322, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 867295389}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!1 &935025367
-=======
 --- !u!4 &1623759862
 Transform:
   m_ObjectHideFlags: 0
@@ -7593,7 +7126,6 @@ MeshFilter:
   m_GameObject: {fileID: 1623759861}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1628123130
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1432680093811812, guid: 6c4cc0d7eeed05a47ba91c4628625923,
@@ -7617,24 +7149,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4372051046200090, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 935025367}
-  m_LocalRotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063078}
-  m_LocalPosition: {x: 0, y: 0, z: 174.26953}
-  m_LocalScale: {x: 6.5925837, y: 6.4267983, z: 6.662258}
-  m_Children:
-  - {fileID: 1454387743}
-  m_Father: {fileID: 1817224455}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3841.1255, y: 547.70685}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &935025369
-MonoBehaviour:
-=======
   m_GameObject: {fileID: 1628123130}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.2508732, y: -0.6771758, z: 0.0029792597}
@@ -7645,52 +7159,12 @@ MonoBehaviour:
   m_LocalEulerAnglesHint: {x: -90.00001, y: -180, z: 0}
 --- !u!23 &1628123132
 MeshRenderer:
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 23679846740955706, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1628123130}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.97200817, g: 1, b: 0.49264705, a: 1}
-    m_PressedColor: {r: 0.4675455, g: 0.44852942, b: 1, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 114048868017712170, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &935025370
-MonoBehaviour:
-=======
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -7721,7 +7195,6 @@ MonoBehaviour:
   m_SortingOrder: 0
 --- !u!33 &1628123133
 MeshFilter:
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 33562225130539294, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
@@ -7768,66 +7241,6 @@ MeshRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1633842531}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95a03afcb42dc4df3a16e83e8f78b3eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ON_OFF_Button: {fileID: 0}
---- !u!1001 &1033104852
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4000011656901714, guid: 3eddd1c29199313478dd3f912bfab2ab, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011656901714, guid: 3eddd1c29199313478dd3f912bfab2ab, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011656901714, guid: 3eddd1c29199313478dd3f912bfab2ab, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011656901714, guid: 3eddd1c29199313478dd3f912bfab2ab, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011656901714, guid: 3eddd1c29199313478dd3f912bfab2ab, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011656901714, guid: 3eddd1c29199313478dd3f912bfab2ab, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011656901714, guid: 3eddd1c29199313478dd3f912bfab2ab, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000011656901714, guid: 3eddd1c29199313478dd3f912bfab2ab, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114742747811649402, guid: 3eddd1c29199313478dd3f912bfab2ab,
-        type: 2}
-      propertyPath: Cursor
-      value: 
-      objectReference: {fileID: 347016666}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 3eddd1c29199313478dd3f912bfab2ab, type: 2}
-  m_IsPrefabParent: 0
---- !u!20 &1033104853 stripped
-Camera:
-  m_PrefabParentObject: {fileID: 20049547090947856, guid: 3eddd1c29199313478dd3f912bfab2ab,
-    type: 2}
-  m_PrefabInternal: {fileID: 1033104852}
---- !u!1 &1055374770
-=======
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -7865,7 +7278,6 @@ MeshFilter:
   m_GameObject: {fileID: 1633842531}
   m_Mesh: {fileID: 4300008, guid: 7ee5903f03a538d47b3d4dc452beb8c9, type: 3}
 --- !u!1 &1640172011
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1995672768768270, guid: 6c4cc0d7eeed05a47ba91c4628625923,
@@ -8063,15 +7475,6 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224279293193194722, guid: 8fa65fb94b252dc479c769352589c1e0,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1073546469}
-  m_LocalRotation: {x: -0, y: 0.42261827, z: -0, w: 0.9063078}
-  m_LocalPosition: {x: 0, y: 0, z: 912.75165}
-  m_LocalScale: {x: 6.592581, y: 6.426798, z: 6.662255}
-  m_Children:
-  - {fileID: 433658875}
-  m_Father: {fileID: 867295390}
-=======
   m_GameObject: {fileID: 1668110954}
   m_LocalRotation: {x: -0, y: -0.94551855, z: -0, w: 0.32556817}
   m_LocalPosition: {x: 0, y: 0, z: 1.9416907}
@@ -8079,18 +7482,12 @@ RectTransform:
   m_Children:
   - {fileID: 1646571129}
   m_Father: {fileID: 1186815204}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-  m_AnchoredPosition: {x: 4317.189, y: -737.6525}
-  m_SizeDelta: {x: 160, y: 30}
-=======
   m_AnchoredPosition: {x: 0.0150817055, y: -0.41078752}
   m_SizeDelta: {x: 100, y: 100}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1668110956
 MonoBehaviour:
@@ -8104,42 +7501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b53a08633f4be64bb98f816076fa5f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  m_Navigation:
-    m_Mode: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.97200817, g: 1, b: 0.49264705, a: 1}
-    m_PressedColor: {r: 0.4675455, g: 0.44852942, b: 1, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 114048868017712170, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1073546472
-=======
 --- !u!114 &1668110957
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 114890800645309094, guid: 8fa65fb94b252dc479c769352589c1e0,
@@ -8399,21 +7761,11 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 1112724829}
-  - component: {fileID: 1112724828}
-  - component: {fileID: 1112724827}
-  - component: {fileID: 1112724826}
-  - component: {fileID: 1112724830}
-  m_Layer: 5
-  m_Name: Operation_Canvas
-=======
   - component: {fileID: 1825965550}
   - component: {fileID: 1825965552}
   - component: {fileID: 1825965551}
   m_Layer: 0
   m_Name: Cylinder_006
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8425,178 +7777,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4754109728223630, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1112724825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &1112724828
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1112724825}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 1033104853}
-  m_PlaneDistance: 10
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1112724829
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1112724825}
-  m_LocalRotation: {x: 0, y: -0.42261827, z: 0, w: 0.9063079}
-  m_LocalPosition: {x: 0, y: 0, z: 10}
-  m_LocalScale: {x: 0.023186758, y: 0.023186758, z: 0.023186758}
-  m_Children:
-  - {fileID: 176441466}
-  - {fileID: 1817224455}
-  - {fileID: 728324568}
-  - {fileID: 1204045108}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: -50, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -15, y: 2.22}
-  m_SizeDelta: {x: 678, y: 497}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1112724830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1112724825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2aebab3047f2113489ca3eb8423228b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Canvas: {fileID: 1112724828}
---- !u!1 &1204045107
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1642748566980520, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1204045108}
-  - component: {fileID: 1204045112}
-  - component: {fileID: 1204045111}
-  - component: {fileID: 1204045110}
-  - component: {fileID: 1204045109}
-  m_Layer: 5
-  m_Name: Canvas (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1204045108
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224334988092599410, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1204045107}
-  m_LocalRotation: {x: -0, y: 0.4226183, z: -0, w: 0.9063078}
-  m_LocalPosition: {x: 0, y: 0, z: -449.27216}
-  m_LocalScale: {x: 0.14663543, y: 0.1561236, z: 0.15612361}
-  m_Children:
-  - {fileID: 1932560422}
-  m_Father: {fileID: 1112724829}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 680.5153, y: 163.10617}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1204045109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114797491607231350, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1204045107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b53a08633f4be64bb98f816076fa5f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1204045110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114276898691934128, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1204045107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2aebab3047f2113489ca3eb8423228b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Canvas: {fileID: 1204045112}
---- !u!114 &1204045111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114478018535048760, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1204045107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!223 &1204045112
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 223459282838254322, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1204045107}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-=======
   m_GameObject: {fileID: 1825965549}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.1341577, y: -3.573523, z: 0.16533351}
@@ -8637,14 +7817,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< HEAD
-  m_TargetDisplay: 0
---- !u!1001 &1339575223
-=======
 --- !u!33 &1825965552
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8654,7 +7829,6 @@ MeshFilter:
   m_GameObject: {fileID: 1825965549}
   m_Mesh: {fileID: 4300000, guid: 6d03dbdcfd7fbd646977a90eb7f828ce, type: 3}
 --- !u!1001 &1826270339
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8691,13 +7865,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4245560281831672, guid: d781c784c288938419a8c0e983a58f34, type: 2}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 177758, guid: 970dd4b9371394fb4890965f608d46fd, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-=======
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4245560281831672, guid: d781c784c288938419a8c0e983a58f34, type: 2}
@@ -8711,7 +7878,6 @@ Prefab:
     - target: {fileID: 4245560281831672, guid: d781c784c288938419a8c0e983a58f34, type: 2}
       propertyPath: m_LocalScale.z
       value: 2.500001
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d781c784c288938419a8c0e983a58f34, type: 2}
@@ -8745,24 +7911,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4438814274048578, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1394888625}
-  m_LocalRotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063078}
-  m_LocalPosition: {x: 0, y: 0, z: 1057.2305}
-  m_LocalScale: {x: 6.576426, y: 6.405182, z: 6.6483946}
-  m_Children:
-  - {fileID: 1451569588}
-  m_Father: {fileID: 728324568}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3055.076, y: 546.963}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1394888627
-MonoBehaviour:
-=======
   m_GameObject: {fileID: 1882862697}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.1341577, y: -3.573523, z: 0.16533351}
@@ -8848,52 +7996,12 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1886745788
 MeshRenderer:
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 23791597161157388, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1886745786}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.97200817, g: 1, b: 0.49264705, a: 1}
-    m_PressedColor: {r: 0.4675455, g: 0.44852942, b: 1, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 114048868017712170, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1394888628
-MonoBehaviour:
-=======
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8924,7 +8032,6 @@ MonoBehaviour:
   m_SortingOrder: 0
 --- !u!33 &1886745789
 MeshFilter:
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 33573191051767072, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
@@ -9046,14 +8153,6 @@ MeshRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1917075935}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cd94a9e48561462aa5bfd2b0c8331fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ON_OFF_Button: {fileID: 0}
---- !u!1 &1446926219
-=======
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -9090,7 +8189,6 @@ MeshFilter:
   m_GameObject: {fileID: 1917075935}
   m_Mesh: {fileID: 4300008, guid: 992d88dd9910cc940808b7ef603114c3, type: 3}
 --- !u!1 &1920299295
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1488859130212904, guid: 8fa65fb94b252dc479c769352589c1e0,
@@ -9119,15 +8217,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 29.043}
   m_LocalScale: {x: 0.00075, y: 0.009, z: 0.01}
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 72627262}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 34}
-  m_SizeDelta: {x: 160, y: 30}
-=======
   m_Father: {fileID: 415887406}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -27.18, z: 0}
@@ -9135,7 +8224,6 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -35.324974, y: 19.89}
   m_SizeDelta: {x: 51, y: -70}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1920299297
 MonoBehaviour:
@@ -9344,10 +8432,6 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1454387742}
---- !u!1 &1455020708
-=======
   m_GameObject: {fileID: 1989559169}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -9385,92 +8469,25 @@ Canvas:
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &2010304964
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1642748566980520, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 1455020709}
-  - component: {fileID: 1455020713}
-  - component: {fileID: 1455020712}
-  - component: {fileID: 1455020711}
-  - component: {fileID: 1455020710}
-  m_Layer: 5
-  m_Name: Canvas (1)
-=======
   - component: {fileID: 2010304965}
   m_Layer: 0
   m_Name: Microsoft MR Objects
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD
-  m_IsActive: 1
---- !u!224 &1455020709
-RectTransform:
-=======
   m_IsActive: 0
 --- !u!4 &2010304965
 Transform:
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224334988092599410, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1455020708}
-  m_LocalRotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063078}
-  m_LocalPosition: {x: 0, y: 0, z: -575.6403}
-  m_LocalScale: {x: 0.14634097, y: 0.15581007, z: 0.15581009}
-  m_Children:
-  - {fileID: 114101303}
-  m_Father: {fileID: 72627262}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -108.621925, y: 163.27757}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1455020710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114797491607231350, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1455020708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b53a08633f4be64bb98f816076fa5f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1455020711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114276898691934128, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1455020708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2aebab3047f2113489ca3eb8423228b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Canvas: {fileID: 1455020713}
---- !u!114 &1455020712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114478018535048760, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1455020708}
-=======
   m_GameObject: {fileID: 2010304964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.57003546, y: -0.4709196, z: 4.3749237}
@@ -9558,7 +8575,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2043613430}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
@@ -9569,15 +8585,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-<<<<<<< HEAD
---- !u!223 &1455020713
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 223459282838254322, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1455020708}
-=======
 --- !u!223 &2043613435
 Canvas:
   m_ObjectHideFlags: 0
@@ -9585,7 +8592,6 @@ Canvas:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2043613430}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
@@ -9600,154 +8606,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
-<<<<<<< HEAD
---- !u!1001 &1704720665
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4000013298573622, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013298573622, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013298573622, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013298573622, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013298573622, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013298573622, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013298573622, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013298573622, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &1817224454
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1642748566980520, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1817224455}
-  - component: {fileID: 1817224459}
-  - component: {fileID: 1817224458}
-  - component: {fileID: 1817224457}
-  - component: {fileID: 1817224456}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1817224455
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224334988092599410, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1817224454}
-  m_LocalRotation: {x: -0, y: 0.42261827, z: -0, w: 0.9063079}
-  m_LocalPosition: {x: 0, y: 0, z: -449.27188}
-  m_LocalScale: {x: 0.1467497, y: 0.15591158, z: 0.1559116}
-  m_Children:
-  - {fileID: 935025368}
-  m_Father: {fileID: 1112724829}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 680.5151, y: 163.10617}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1817224456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114797491607231350, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1817224454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b53a08633f4be64bb98f816076fa5f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1817224457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114276898691934128, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1817224454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2aebab3047f2113489ca3eb8423228b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Canvas: {fileID: 1817224459}
---- !u!114 &1817224458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114478018535048760, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1817224454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!223 &1817224459
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 223459282838254322, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1817224454}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!1 &1827956354
-=======
 --- !u!1 &2056815932
 GameObject:
   m_ObjectHideFlags: 0
@@ -9781,7 +8639,6 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2059757395
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1992274926041138, guid: 6c4cc0d7eeed05a47ba91c4628625923,
@@ -9856,21 +8713,9 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 33806131097890958, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1827956354}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1932560421
-=======
   m_GameObject: {fileID: 2059757395}
   m_Mesh: {fileID: 4300014, guid: 7ee5903f03a538d47b3d4dc452beb8c9, type: 3}
 --- !u!1 &2064013354
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1907054170715204, guid: 6c4cc0d7eeed05a47ba91c4628625923,
@@ -9892,65 +8737,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4651863993004112, guid: 6c4cc0d7eeed05a47ba91c4628625923,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1932560421}
-  m_LocalRotation: {x: -0, y: -0.4226183, z: -0, w: 0.9063078}
-  m_LocalPosition: {x: 0, y: 0, z: -709.1656}
-  m_LocalScale: {x: 6.5764265, y: 6.405182, z: 6.6483955}
-  m_Children:
-  - {fileID: 687366867}
-  m_Father: {fileID: 1204045108}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4633.165, y: 546.963}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1932560423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1932560421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.97200817, g: 1, b: 0.49264705, a: 1}
-    m_PressedColor: {r: 0.4675455, g: 0.44852942, b: 1, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 114048868017712170, guid: 3911644b9950d154299c4199a0eb360d,
-    type: 2}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1932560424
-=======
   m_GameObject: {fileID: 2064013354}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -0.700001, y: -0.29995704, z: -1.8300008}
@@ -9979,7 +8765,6 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &2092391632
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -10008,10 +8793,6 @@ MonoBehaviour:
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  ON_OFF_Button: {fileID: 0}
---- !u!1001 &2030554923
-=======
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 5
@@ -10029,63 +8810,24 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2095411504
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-<<<<<<< HEAD
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4541142303025740, guid: d29bc40b7f3df26479d6a0aac211c355, type: 2}
-=======
     m_TransformParent: {fileID: 1408230085}
     m_Modifications:
     - target: {fileID: 4333087386393788, guid: 10d6bdc092a41a244941b744ade6f35c, type: 2}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
       propertyPath: m_LocalPosition.x
       value: -4.033
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 4541142303025740, guid: d29bc40b7f3df26479d6a0aac211c355, type: 2}
-=======
     - target: {fileID: 4333087386393788, guid: 10d6bdc092a41a244941b744ade6f35c, type: 2}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
       propertyPath: m_LocalPosition.y
       value: -1.664
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 4541142303025740, guid: d29bc40b7f3df26479d6a0aac211c355, type: 2}
-=======
     - target: {fileID: 4333087386393788, guid: 10d6bdc092a41a244941b744ade6f35c, type: 2}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
       propertyPath: m_LocalPosition.z
       value: -10.206
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 4541142303025740, guid: d29bc40b7f3df26479d6a0aac211c355, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4541142303025740, guid: d29bc40b7f3df26479d6a0aac211c355, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4541142303025740, guid: d29bc40b7f3df26479d6a0aac211c355, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4541142303025740, guid: d29bc40b7f3df26479d6a0aac211c355, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4541142303025740, guid: d29bc40b7f3df26479d6a0aac211c355, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: d29bc40b7f3df26479d6a0aac211c355, type: 2}
-=======
     - target: {fileID: 4333087386393788, guid: 10d6bdc092a41a244941b744ade6f35c, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
@@ -10108,7 +8850,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10d6bdc092a41a244941b744ade6f35c, type: 2}
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
   m_IsPrefabParent: 0
 --- !u!4 &2095411505 stripped
 Transform:

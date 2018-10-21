@@ -57,112 +57,6 @@
      <Compile Include="Assets\AssetBundleSample\Scripts\LoadScenes.cs" />
      <Compile Include="Assets\AssetBundleSample\Scripts\LoadTanks.cs" />
      <Compile Include="Assets\AssetBundleSample\Scripts\LoadVariants.cs" />
-<<<<<<< HEAD
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\GVRDemoManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\HeadsetDemoManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\Teleport.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\KeyboardDemo\KeyboardDelegateExample.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\PermissionsDemo\PermissionsFlowManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\AppButtonInput.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\AutoPlayVideo.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\MenuHandler.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\PositionSwapper.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\ScrubberEvents.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\SwitchVideos.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\ToggleAction.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\VideoControlsManager.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\VideoPlayerReference.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Audio\GvrAudio.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Audio\GvrAudioListener.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Audio\GvrAudioRoom.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Audio\GvrAudioSoundfield.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Audio\GvrAudioSource.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrController.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrControllerVisualManager.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrPointerManager.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Cardboard\GvrReticlePointer.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\GvrArmModel.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\GvrBaseArmModel.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\IGvrArmModelReceiver.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerInput.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerReticleVisual.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerVisual.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrLaserPointer.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrLaserVisual.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrRecenterOnlyController.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrTrackedController.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviderFactory.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\AndroidNativeControllerProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\DummyControllerProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EditorControllerProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EmulatorControllerProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\MouseControllerProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerState.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorClientSocket.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorConfig.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorDataTypes.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorManager.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\PhoneEvent.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\IControllerProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Tooltips\GvrControllerTooltipsSimple.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Controller\Tooltips\GvrTooltip.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrBasePointer.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrBasePointerRaycaster.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrEventInterfacesExtension.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrExecuteEventsExtension.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerGraphicRaycaster.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerPhysicsRaycaster.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerScrollInput.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrScrollSettings.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\IGvrScrollSettings.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrAllEventsTrigger.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrEventExecutor.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrPointerInputModule.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrPointerInputModuleImpl.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\IGvrEventExecutor.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\IGvrInputModuleController.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\GvrCardboardHelpers.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\GvrEditorEmulator.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\GvrSettings.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\GvrUnitySdkVersion.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Headset\GvrHeadset.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Headset\GvrHeadsetEnums.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Headset\Internal\HeadsetProviderFactory.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Headset\Internal\HeadsetProviders\AndroidNativeHeadsetEnums.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Headset\Internal\HeadsetProviders\AndroidNativeHeadsetProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Headset\Internal\HeadsetProviders\DummyHeadsetProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Headset\Internal\HeadsetProviders\EditorHeadsetProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Headset\Internal\HeadsetState.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Headset\Internal\IHeadsetProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\InstantPreview\InstantPreview.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\InstantPreview\InstantPreviewControllerProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\InstantPreview\InstantPreviewHelper.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboard.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboardDelegateBase.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboardIntent.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\IKeyboardProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviderFactory.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\AndroidNativeKeyboardProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\DummyKeyboardProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\EmulatorKeyboardProvider.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardState.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Permissions\GvrPermissionsRequester.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Pose3D.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\PropertyDrawers\GvrInfoDrawer.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\UI\GvrDropdown.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrActivityHelper.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrCursorHelper.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrDaydreamApi.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrMathHelpers.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-=======
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <Compile Include="Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs" />
      <Compile Include="Assets\HoloToolkit\Boundary\Scripts\Edge.cs" />
      <Compile Include="Assets\HoloToolkit\Boundary\Scripts\EdgeHelpers.cs" />
@@ -895,49 +789,17 @@
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurable.cginc" />
      <None Include="Assets\HoloToolkit-Examples\Prototyping\Shaders\UnlitTransparentTriplanar.shader" />
      <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\VolumeRenderThickSlice.shader" />
-<<<<<<< HEAD
-     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
-=======
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFStandardInput.cginc" />
      <None Include="Assets\HoloToolkit-Examples\UX\Materials\AcrylicReflectiveTransparent.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\FastConfigurable.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\FastConfigurable2Sided.shader" />
-<<<<<<< HEAD
-     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFVertexLitCommon.cginc" />
      <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\PlaneCut.cginc" />
-     <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
-=======
-     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFVertexLitCommon.cginc" />
-     <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\PlaneCut.cginc" />
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\math.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitNoDepthTest.shader" />
      <None Include="Assets\HoloToolkit\UX\Fonts\LICENSE.txt" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurableTransparent.shader" />
      <None Include="Assets\HoloToolkit\Input\Shaders\Cursor.shader" />
-<<<<<<< HEAD
-     <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
-     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\LambertianConfigurable.cginc" />
-     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
-     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurable.shader" />
-     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\StandardFast.shader" />
-     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
-     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\LambertianConfigurable.shader" />
-     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurableTransparent.shader" />
-     <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\Wireframe.shader" />
-     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
-     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
-     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFConstant.shader" />
-     <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
-     <None Include="Assets\HoloToolkit\Input\Shaders\CursorShader.shader" />
-     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
-     <None Include="Assets\HoloToolkit\Input\Shaders\EditorHands.shader" />
-     <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\Occlusion.shader" />
-     <None Include="Assets\HoloToolkit\MRTKVersion.txt" />
-     <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
-=======
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\LambertianConfigurable.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurable.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\StandardFast.shader" />
@@ -949,7 +811,6 @@
      <None Include="Assets\HoloToolkit\Input\Shaders\EditorHands.shader" />
      <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\Occlusion.shader" />
      <None Include="Assets\HoloToolkit\MRTKVersion.txt" />
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFStandard.shader" />
      <None Include="Assets\HoloToolkit\SpatialUnderstanding\Materials\SpatialMappingSurface.shader" />
      <None Include="Assets\HoloToolkit-Examples\Prototyping\Shaders\UnlitTriplanar.shader" />
@@ -962,32 +823,16 @@
      <None Include="Assets\HoloToolkit\UX\Shaders\DebugNormals.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\macro.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\HoloToolkitCommon.cginc" />
-<<<<<<< HEAD
-     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
-     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\Alpha-Diffuse.shader" />
-     <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
-=======
-     <None Include="Assets\HoloToolkit\UX\Shaders\Alpha-Diffuse.shader" />
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit\Common\Shaders\Standard.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurableTransparent.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\HUXButtonHighlightShader.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurable.cginc" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFMobileCommon.cginc" />
-<<<<<<< HEAD
-     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
-     <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
-=======
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit-Examples\UX\Materials\AcrylicReflective.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\Occlusion.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\MovieMask.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\StereoImage.shader" />
-<<<<<<< HEAD
-     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
-=======
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
      <None Include="Assets\HoloToolkit\License.txt" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurable.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\LuminousUnity.shader" />
@@ -1020,21 +865,6 @@
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/Unity 2017.2.1p2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
-<<<<<<< HEAD
- </Reference>
- <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/nrebe/Desktop/MoleculesVRProject-master/NCSA-Spin-Project-master/Daydream test/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
- </Reference>
- <Reference Include="GLTFSerialization">
- <HintPath>C:/Users/nrebe/Desktop/MoleculesVRProject-master/NCSA-Spin-Project-master/Daydream test/Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/GLTFSerialization/GLTFSerialization.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/nrebe/Desktop/MoleculesVRProject-master/NCSA-Spin-Project-master/Daydream test/Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/nrebe/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
- </Reference>
-=======
  </Reference>
  <Reference Include="GLTFSerialization">
  <HintPath>C:/Users/nrebe/Desktop/Unity Projects/MoleculesVRProject Experimenting/NCSA-Spin-Project-master/Daydream test/Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/GLTFSerialization/GLTFSerialization.dll</HintPath>
@@ -1045,7 +875,6 @@
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/nrebe/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
  </Reference>
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>C:/Users/nrebe/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
  </Reference>

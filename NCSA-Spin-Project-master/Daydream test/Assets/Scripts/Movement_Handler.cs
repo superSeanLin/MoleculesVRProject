@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-﻿using HoloToolkit.Unity.InputModule.Examples.Grabbables;
-=======
 ﻿using HoloToolkit.Unity.InputModule;
 using HoloToolkit.Unity.InputModule.Examples.Grabbables;
 using HoloToolkit.Unity.InputModule.Tests;
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,11 +8,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 // maybe later use daydream app button
-<<<<<<< HEAD
-public class Movement_Handler : MonoBehaviour, IPointerClickHandler {
-=======
 public class Movement_Handler : MonoBehaviour {  //, IPointerClickHandler {
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
     private string keyword = "Ball";
 	private GameObject[] array = null;
 	private GameObject molecule = null;
@@ -54,14 +46,11 @@ public class Movement_Handler : MonoBehaviour {  //, IPointerClickHandler {
 				GameObject atom = i.gameObject;
 				Destroy(atom.GetComponent<SphereCollider>());
 			}
-<<<<<<< HEAD
-=======
             // add grabbable script
 
             //molecule.AddComponent<InputTest>();
 
 
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
             // add Sphere Collider
             molecule.AddComponent<GrabbableSimple>();
 			SphereCollider collider_molecule = molecule.AddComponent<SphereCollider>() as SphereCollider;
@@ -74,15 +63,10 @@ public class Movement_Handler : MonoBehaviour {  //, IPointerClickHandler {
             Destroy(GetComponent<GrabbableSimple>());
             // remove old Sphere Collider
             Destroy(molecule.GetComponent<SphereCollider>());
-<<<<<<< HEAD
-			// add Sphere Collider 
-			MeshRenderer[] objects = molecule.GetComponentsInChildren<MeshRenderer>();
-=======
             Destroy(molecule.GetComponent<HandDraggable>());
             Destroy(molecule.GetComponent<RotatableObject>());
             // add Sphere Collider 
             MeshRenderer[] objects = molecule.GetComponentsInChildren<MeshRenderer>();
->>>>>>> Was able to get the Acer Lenses to work with the project with viewing and interacting with the UI.
 			foreach (MeshRenderer i in objects){
 				GameObject atom = i.gameObject;
                 if (atom.ToString().Contains(keyword)){

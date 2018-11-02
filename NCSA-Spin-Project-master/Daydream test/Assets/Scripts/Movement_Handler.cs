@@ -21,6 +21,8 @@ public class Movement_Handler : MonoBehaviour, IPointerClickHandler {
 	public void Update(){
 		if(array.Length == 0 && molecule == null){
 			array = GameObject.FindGameObjectsWithTag("edmc");
+		}
+		else{
 			molecule = array[0];
 		}
 	}

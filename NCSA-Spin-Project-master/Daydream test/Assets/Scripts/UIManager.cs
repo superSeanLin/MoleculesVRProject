@@ -26,11 +26,13 @@ public class UIManager : MonoBehaviour
     }
 
     public IEnumerator ReadManifest(){
+        /*
         // start a download in the background by calling WWW(url) which returns a new WWW object
         WWW www = new WWW(manifest);
         yield return www;
+        Debug.Log(string.IsNullOrEmpty(www.error));
         // www.error may return null or empty string
-        if(!string.IsNullOrEmpty(www.error)){
+        if(string.IsNullOrEmpty(www.error)){
             Debug.Log("Error in retrieving manifest file.");
         }
         else{
@@ -48,7 +50,7 @@ public class UIManager : MonoBehaviour
                 }
             }
         }
-        /*
+        */
         // load assetBundle from local path
         string url = Application.dataPath + "/../AssetBundles/Android/molecules.manifest";
         string stringFromFile = System.IO.File.ReadAllText(@url);
@@ -70,7 +72,7 @@ public class UIManager : MonoBehaviour
             }
         }
         yield return stringFromFile;
-        */
+        
     }
 
     // Update is called once per frame

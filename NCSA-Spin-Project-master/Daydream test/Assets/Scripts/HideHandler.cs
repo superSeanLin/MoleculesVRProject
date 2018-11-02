@@ -19,8 +19,9 @@ public class HideHandler : MonoBehaviour, IPointerClickHandler {
 	public void Update(){
 		if(array.Length == 0 && molecule == null){
 			array = GameObject.FindGameObjectsWithTag("edmc");
-			molecule = array[0];
 		}
+		else
+			molecule = array[0];
 	}
 
 	public void OnPointerClick(PointerEventData data){

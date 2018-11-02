@@ -21,22 +21,24 @@ public class LoadAssets: MonoBehaviour
 
     public IEnumerator DownloadModel()
     {
+        /*
     	// load assetBundle from web server
         WWW www = new WWW(url);
         yield return www;
         AssetBundle assetBundle = www.assetBundle;
-        if(!string.IsNullOrEmpty(www.error))
+        if(string.IsNullOrEmpty(www.error))
         {
             Debug.Log("There was a problem loading asset bundles.");
         }
-        /*
+        */
+        
         // load assetBundle from local path
         string url = Application.dataPath + "/../AssetBundles/Android/molecules";
         var assetBundle = AssetBundle.LoadFromFile(url);
         if (assetBundle == null) {
             Debug.Log("Failed to load AssetBundle!");
         }
-        */
+        
         // between 0 ~ (count-1)
         int random_number = Mathf.RoundToInt(Random.value * (uiManager.count - 1));
         // copy and set

@@ -49,7 +49,7 @@ public class Swipe_Handler : MonoBehaviour {
 			previous_scale = current_sclae;
 		}
 		// if not beingScale
-		else if(isosurfaces.Count != 0 && !beingScale && GvrControllerInput.IsTouching){
+		else if(!beingScale && GvrControllerInput.IsTouching && isosurfaces.Count != 0){
 			Vector2 current_sclae = GvrControllerInput.TouchPos;
 			float diff = convert2float(previous_scale) - convert2float(current_sclae);
 			if(diff > 0.09f){

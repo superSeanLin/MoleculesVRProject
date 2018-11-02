@@ -19,6 +19,7 @@ public class AddButtons : MonoBehaviour {
         // wait ReadManifest finish and update the count
         // better way: Setting isPlaying delays the result until after all script code has completed for this frame
         yield return uiManager.count;
+        Debug.Log(uiManager.count);
         ButtonPrefab = GameObject.Find("ButtonPrefab");
         myCanvas = GameObject.Find("Menu_Canvas");
         //_Handler = GameObject.Find("_Handler").GetComponent<Handler>();

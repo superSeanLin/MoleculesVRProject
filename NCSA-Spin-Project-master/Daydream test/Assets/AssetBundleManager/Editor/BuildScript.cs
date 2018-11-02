@@ -21,7 +21,8 @@ namespace AssetBundles
 				Directory.CreateDirectory (outputPath);
 	
 			//@TODO: use append hash... (Make sure pipeline works correctly with it.)
-			BuildPipeline.BuildAssetBundles (outputPath, BuildAssetBundleOptions.None, EditorUserBuildSettings.activeBuildTarget);
+			// Note: BuildAssetBundleOptions.None use LZMA, BuildAssetBundleOptions.ChunkBasedCompression use LZ4
+			BuildPipeline.BuildAssetBundles (outputPath, BuildAssetBundleOptions.ChunkBasedCompression, EditorUserBuildSettings.activeBuildTarget);
 		}
 	
 		public static void WriteServerURL()

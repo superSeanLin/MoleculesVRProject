@@ -26,8 +26,9 @@ public class Rotation_Handler_Google : MonoBehaviour, IPointerClickHandler {
         if (array.Length == 0 && molecule == null)
         {
             array = GameObject.FindGameObjectsWithTag("edmc");
-            molecule = array[0];
         }
+        else
+            molecule = array[0];
     }
 
 	public void OnPointerClick(PointerEventData data) {

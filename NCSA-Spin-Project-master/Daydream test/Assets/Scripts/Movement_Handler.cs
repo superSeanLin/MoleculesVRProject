@@ -1,4 +1,5 @@
 ﻿using HoloToolkit.Unity.InputModule;
+using System.Linq;
 using HoloToolkit.Unity.InputModule.Examples.Grabbables;
 using HoloToolkit.Unity.InputModule.Tests;
 using System.Collections;
@@ -8,12 +9,16 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 // maybe later use daydream app button
-public class Movement_Handler : MonoBehaviour {  //, IPointerClickHandler {
+public class Movement_Handler : MonoBehaviour
+{  //, IPointerClickHandler {
+
     private string keyword = "Ball";
-	private GameObject[] array = null;
-	private GameObject molecule = null;
-	// use one button toggled
-	public GameObject ON_OFF_Button;
+    private GameObject[] array = null;
+    private GameObject molecule = null;
+    // use one button toggled
+    public GameObject ON_OFF_Button;
+
+    public bool check;
 
     [SerializeField]
     private TestButton button = null;
@@ -24,17 +29,24 @@ public class Movement_Handler : MonoBehaviour {  //, IPointerClickHandler {
     }
 
     // Use this for initialization
-    public void Start(){
-		//ON_OFF_Button = GameObject.Find("Movement_Controller");
-		array = GameObject.FindGameObjectsWithTag("edmc");
-	}
+    public void Start()
+    {
+        //ON_OFF_Button = GameObject.Find("Movement_Controller");
+        array = GameObject.FindGameObjectsWithTag("edmc");
+    }
 
-	public void Update(){
-		if(array.Length == 0 && molecule == null){
-			array = GameObject.FindGameObjectsWithTag("edmc");
-			molecule = array[0];
-		}
-	}
+    public void Update()
+    {
+        if (array.Length == 0 && molecule == null)
+        {
+            array = GameObject.FindGameObjectsWithTag("edmc");
+            //molecule = array[0];
+        }
+        else
+        {
+            molecule = array[0];
+        }   
+    }
 
     /* FOR UNITY's UI
 	public void OnPointerClick(PointerEventData data) {
@@ -86,12 +98,14 @@ public class Movement_Handler : MonoBehaviour {  //, IPointerClickHandler {
         if (ON_OFF_Button.GetComponentsInChildren<Text>()[0].text == "Movement Mode ON")
         { // not able to move
           // remove old Sphere Collider
-            MeshRenderer[] objects = molecule.GetComponentsInChildren<MeshRenderer>();
-            foreach (MeshRenderer i in objects)
+            Debug.Log("1");
+            List<GameObject> l = new List<Transform>(molecule.transform.GetComponentsInChildren<Transform>()).ConvertAll<GameObject>(delegate (Transform p_it) { return p_it.gameObject; });
+            foreach (GameObject i in l)
             {
                 GameObject atom = i.gameObject;
                 Destroy(atom.GetComponent<SphereCollider>());
             }
+            Debug.Log("2");
             // add grabbable script
 
             //molecule.AddComponent<InputTest>();
@@ -99,8 +113,12 @@ public class Movement_Handler : MonoBehaviour {  //, IPointerClickHandler {
 
             // add Sphere Collider
             molecule.AddComponent<GrabbableSimple>();
+            Debug.Log("3");
             SphereCollider collider_molecule = molecule.AddComponent<SphereCollider>() as SphereCollider;
-            collider_molecule.radius = 10;
+            if (molecule.name == "sucrose_soft" || molecule.name == "ethane(Clone)" || molecule.name == "Ethanol(Clone)" || molecule.name == "ethene(Clone)" || molecule.name == "methane(Clone)" || molecule.name == "Polyethylene(Clone)" || molecule.name == "propane(Clone)" || molecule.name == "sucrose(Clone)" || molecule.name == "water(Clone)" || molecule.name == "Sulfuric Acid(Clone)")
+                collider_molecule.radius = 3;
+            else
+                collider_molecule.radius = 9;
             ON_OFF_Button.GetComponentsInChildren<Text>()[0].text = "Movement Mode OFF";
             molecule.AddComponent<HandDraggable>();
             molecule.AddComponent<RotatableObject>();
@@ -113,8 +131,8 @@ public class Movement_Handler : MonoBehaviour {  //, IPointerClickHandler {
             Destroy(molecule.GetComponent<HandDraggable>());
             Destroy(molecule.GetComponent<RotatableObject>());
             // add Sphere Collider 
-            MeshRenderer[] objects = molecule.GetComponentsInChildren<MeshRenderer>();
-            foreach (MeshRenderer i in objects)
+            List<GameObject> l = new List<Transform>(molecule.transform.GetComponentsInChildren<Transform>()).ConvertAll<GameObject>(delegate (Transform p_it) { return p_it.gameObject; });
+            foreach (GameObject i in l)
             {
                 GameObject atom = i.gameObject;
                 if (atom.ToString().Contains(keyword))

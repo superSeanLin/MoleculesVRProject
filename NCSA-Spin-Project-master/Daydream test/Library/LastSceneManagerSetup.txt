@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/New_Menu.unity
+- path: Assets/Electron Density Testing/New_scene_ED.unity
   isLoaded: 1
   isActive: 1

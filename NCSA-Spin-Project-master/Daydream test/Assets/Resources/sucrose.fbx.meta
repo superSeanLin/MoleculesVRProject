@@ -1,0 +1,1687 @@
+fileFormatVersion: 2
+guid: 70e211e940ddb3a4b9cf6b192364f50f
+timeCreated: 1540876086
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Electron_Density
+    100002: Shape_Cylinder
+    100004: Shape_Cylinder.001
+    100006: Shape_Cylinder.002
+    100008: Shape_Cylinder.003
+    100010: Shape_Cylinder.004
+    100012: Shape_Cylinder.005
+    100014: Shape_Cylinder.006
+    100016: Shape_Cylinder.007
+    100018: Shape_Cylinder.008
+    100020: Shape_Cylinder.009
+    100022: Shape_Cylinder.010
+    100024: Shape_Cylinder.011
+    100026: Shape_Cylinder.012
+    100028: Shape_Cylinder.013
+    100030: Shape_Cylinder.014
+    100032: Shape_Cylinder.015
+    100034: Shape_Cylinder.016
+    100036: Shape_Cylinder.017
+    100038: Shape_Cylinder.018
+    100040: Shape_Cylinder.019
+    100042: Shape_Cylinder.020
+    100044: Shape_Cylinder.021
+    100046: Shape_Cylinder.022
+    100048: Shape_Cylinder.023
+    100050: Shape_Cylinder.024
+    100052: Shape_Cylinder.025
+    100054: Shape_Cylinder.026
+    100056: Shape_Cylinder.027
+    100058: Shape_Cylinder.028
+    100060: Shape_Cylinder.029
+    100062: Shape_Cylinder.030
+    100064: Shape_Cylinder.031
+    100066: Shape_Cylinder.032
+    100068: Shape_Cylinder.033
+    100070: Shape_Cylinder.034
+    100072: Shape_Cylinder.035
+    100074: Shape_Cylinder.036
+    100076: Shape_Cylinder.037
+    100078: Shape_Cylinder.038
+    100080: Shape_Cylinder.039
+    100082: Shape_Cylinder.040
+    100084: Shape_Cylinder.041
+    100086: Shape_Cylinder.042
+    100088: Shape_Cylinder.043
+    100090: Shape_Cylinder.044
+    100092: Shape_Cylinder.045
+    100094: Shape_Cylinder.046
+    100096: Shape_Cylinder.047
+    100098: Shape_Cylinder.048
+    100100: Shape_Cylinder.049
+    100102: Shape_Cylinder.050
+    100104: Shape_Cylinder.051
+    100106: Shape_Cylinder.052
+    100108: Shape_Cylinder.053
+    100110: Shape_Cylinder.054
+    100112: Shape_Cylinder.055
+    100114: Shape_Cylinder.056
+    100116: Shape_Cylinder.057
+    100118: Shape_Cylinder.058
+    100120: Shape_Cylinder.059
+    100122: Shape_Cylinder.060
+    100124: Shape_Cylinder.061
+    100126: Shape_Cylinder.062
+    100128: Shape_Cylinder.063
+    100130: Shape_Cylinder.064
+    100132: Shape_Cylinder.065
+    100134: Shape_Cylinder.066
+    100136: Shape_Cylinder.067
+    100138: Shape_Cylinder.068
+    100140: Shape_Cylinder.069
+    100142: Shape_Cylinder.070
+    100144: Shape_Cylinder.071
+    100146: Shape_Cylinder.072
+    100148: Shape_Cylinder.073
+    100150: Shape_Cylinder.074
+    100152: Shape_Cylinder.075
+    100154: Shape_Cylinder.076
+    100156: Shape_Cylinder.077
+    100158: Shape_Cylinder.078
+    100160: Shape_Cylinder.079
+    100162: Shape_Cylinder.080
+    100164: Shape_Cylinder.081
+    100166: Shape_Cylinder.082
+    100168: Shape_Cylinder.083
+    100170: Shape_Cylinder.084
+    100172: Shape_Cylinder.085
+    100174: Shape_Cylinder.086
+    100176: Shape_Cylinder.087
+    100178: Shape_Cylinder.088
+    100180: Shape_Cylinder.089
+    100182: Shape_Cylinder.090
+    100184: Shape_Cylinder.091
+    100186: Shape_Sphere
+    100188: Shape_Sphere.001
+    100190: Shape_Sphere.002
+    100192: Shape_Sphere.003
+    100194: Shape_Sphere.004
+    100196: Shape_Sphere.005
+    100198: Shape_Sphere.006
+    100200: Shape_Sphere.007
+    100202: Shape_Sphere.008
+    100204: Shape_Sphere.009
+    100206: Shape_Sphere.010
+    100208: Shape_Sphere.011
+    100210: Shape_Sphere.012
+    100212: Shape_Sphere.013
+    100214: Shape_Sphere.014
+    100216: Shape_Sphere.015
+    100218: Shape_Sphere.016
+    100220: Shape_Sphere.017
+    100222: Shape_Sphere.018
+    100224: Shape_Sphere.019
+    100226: Shape_Sphere.020
+    100228: Shape_Sphere.021
+    100230: Shape_Sphere.022
+    100232: Shape_Sphere.023
+    100234: Shape_Sphere.024
+    100236: Shape_Sphere.025
+    100238: Shape_Sphere.026
+    100240: Shape_Sphere.027
+    100242: Shape_Sphere.028
+    100244: Shape_Sphere.029
+    100246: Shape_Sphere.030
+    100248: Shape_Sphere.031
+    100250: Shape_Sphere.032
+    100252: Shape_Sphere.033
+    100254: Shape_Sphere.034
+    100256: Shape_Sphere.035
+    100258: Shape_Sphere.036
+    100260: Shape_Sphere.037
+    100262: Shape_Sphere.038
+    100264: Shape_Sphere.039
+    100266: Shape_Sphere.040
+    100268: Shape_Sphere.041
+    100270: Shape_Sphere.042
+    100272: Shape_Sphere.043
+    100274: Shape_Sphere.044
+    100276: //RootNode
+    400000: Electron_Density
+    400002: Shape_Cylinder
+    400004: Shape_Cylinder.001
+    400006: Shape_Cylinder.002
+    400008: Shape_Cylinder.003
+    400010: Shape_Cylinder.004
+    400012: Shape_Cylinder.005
+    400014: Shape_Cylinder.006
+    400016: Shape_Cylinder.007
+    400018: Shape_Cylinder.008
+    400020: Shape_Cylinder.009
+    400022: Shape_Cylinder.010
+    400024: Shape_Cylinder.011
+    400026: Shape_Cylinder.012
+    400028: Shape_Cylinder.013
+    400030: Shape_Cylinder.014
+    400032: Shape_Cylinder.015
+    400034: Shape_Cylinder.016
+    400036: Shape_Cylinder.017
+    400038: Shape_Cylinder.018
+    400040: Shape_Cylinder.019
+    400042: Shape_Cylinder.020
+    400044: Shape_Cylinder.021
+    400046: Shape_Cylinder.022
+    400048: Shape_Cylinder.023
+    400050: Shape_Cylinder.024
+    400052: Shape_Cylinder.025
+    400054: Shape_Cylinder.026
+    400056: Shape_Cylinder.027
+    400058: Shape_Cylinder.028
+    400060: Shape_Cylinder.029
+    400062: Shape_Cylinder.030
+    400064: Shape_Cylinder.031
+    400066: Shape_Cylinder.032
+    400068: Shape_Cylinder.033
+    400070: Shape_Cylinder.034
+    400072: Shape_Cylinder.035
+    400074: Shape_Cylinder.036
+    400076: Shape_Cylinder.037
+    400078: Shape_Cylinder.038
+    400080: Shape_Cylinder.039
+    400082: Shape_Cylinder.040
+    400084: Shape_Cylinder.041
+    400086: Shape_Cylinder.042
+    400088: Shape_Cylinder.043
+    400090: Shape_Cylinder.044
+    400092: Shape_Cylinder.045
+    400094: Shape_Cylinder.046
+    400096: Shape_Cylinder.047
+    400098: Shape_Cylinder.048
+    400100: Shape_Cylinder.049
+    400102: Shape_Cylinder.050
+    400104: Shape_Cylinder.051
+    400106: Shape_Cylinder.052
+    400108: Shape_Cylinder.053
+    400110: Shape_Cylinder.054
+    400112: Shape_Cylinder.055
+    400114: Shape_Cylinder.056
+    400116: Shape_Cylinder.057
+    400118: Shape_Cylinder.058
+    400120: Shape_Cylinder.059
+    400122: Shape_Cylinder.060
+    400124: Shape_Cylinder.061
+    400126: Shape_Cylinder.062
+    400128: Shape_Cylinder.063
+    400130: Shape_Cylinder.064
+    400132: Shape_Cylinder.065
+    400134: Shape_Cylinder.066
+    400136: Shape_Cylinder.067
+    400138: Shape_Cylinder.068
+    400140: Shape_Cylinder.069
+    400142: Shape_Cylinder.070
+    400144: Shape_Cylinder.071
+    400146: Shape_Cylinder.072
+    400148: Shape_Cylinder.073
+    400150: Shape_Cylinder.074
+    400152: Shape_Cylinder.075
+    400154: Shape_Cylinder.076
+    400156: Shape_Cylinder.077
+    400158: Shape_Cylinder.078
+    400160: Shape_Cylinder.079
+    400162: Shape_Cylinder.080
+    400164: Shape_Cylinder.081
+    400166: Shape_Cylinder.082
+    400168: Shape_Cylinder.083
+    400170: Shape_Cylinder.084
+    400172: Shape_Cylinder.085
+    400174: Shape_Cylinder.086
+    400176: Shape_Cylinder.087
+    400178: Shape_Cylinder.088
+    400180: Shape_Cylinder.089
+    400182: Shape_Cylinder.090
+    400184: Shape_Cylinder.091
+    400186: Shape_Sphere
+    400188: Shape_Sphere.001
+    400190: Shape_Sphere.002
+    400192: Shape_Sphere.003
+    400194: Shape_Sphere.004
+    400196: Shape_Sphere.005
+    400198: Shape_Sphere.006
+    400200: Shape_Sphere.007
+    400202: Shape_Sphere.008
+    400204: Shape_Sphere.009
+    400206: Shape_Sphere.010
+    400208: Shape_Sphere.011
+    400210: Shape_Sphere.012
+    400212: Shape_Sphere.013
+    400214: Shape_Sphere.014
+    400216: Shape_Sphere.015
+    400218: Shape_Sphere.016
+    400220: Shape_Sphere.017
+    400222: Shape_Sphere.018
+    400224: Shape_Sphere.019
+    400226: Shape_Sphere.020
+    400228: Shape_Sphere.021
+    400230: Shape_Sphere.022
+    400232: Shape_Sphere.023
+    400234: Shape_Sphere.024
+    400236: Shape_Sphere.025
+    400238: Shape_Sphere.026
+    400240: Shape_Sphere.027
+    400242: Shape_Sphere.028
+    400244: Shape_Sphere.029
+    400246: Shape_Sphere.030
+    400248: Shape_Sphere.031
+    400250: Shape_Sphere.032
+    400252: Shape_Sphere.033
+    400254: Shape_Sphere.034
+    400256: Shape_Sphere.035
+    400258: Shape_Sphere.036
+    400260: Shape_Sphere.037
+    400262: Shape_Sphere.038
+    400264: Shape_Sphere.039
+    400266: Shape_Sphere.040
+    400268: Shape_Sphere.041
+    400270: Shape_Sphere.042
+    400272: Shape_Sphere.043
+    400274: Shape_Sphere.044
+    400276: //RootNode
+    2300000: Electron_Density
+    2300002: Shape_Cylinder
+    2300004: Shape_Cylinder.001
+    2300006: Shape_Cylinder.002
+    2300008: Shape_Cylinder.003
+    2300010: Shape_Cylinder.004
+    2300012: Shape_Cylinder.005
+    2300014: Shape_Cylinder.006
+    2300016: Shape_Cylinder.007
+    2300018: Shape_Cylinder.008
+    2300020: Shape_Cylinder.009
+    2300022: Shape_Cylinder.010
+    2300024: Shape_Cylinder.011
+    2300026: Shape_Cylinder.012
+    2300028: Shape_Cylinder.013
+    2300030: Shape_Cylinder.014
+    2300032: Shape_Cylinder.015
+    2300034: Shape_Cylinder.016
+    2300036: Shape_Cylinder.017
+    2300038: Shape_Cylinder.018
+    2300040: Shape_Cylinder.019
+    2300042: Shape_Cylinder.020
+    2300044: Shape_Cylinder.021
+    2300046: Shape_Cylinder.022
+    2300048: Shape_Cylinder.023
+    2300050: Shape_Cylinder.024
+    2300052: Shape_Cylinder.025
+    2300054: Shape_Cylinder.026
+    2300056: Shape_Cylinder.027
+    2300058: Shape_Cylinder.028
+    2300060: Shape_Cylinder.029
+    2300062: Shape_Cylinder.030
+    2300064: Shape_Cylinder.031
+    2300066: Shape_Cylinder.032
+    2300068: Shape_Cylinder.033
+    2300070: Shape_Cylinder.034
+    2300072: Shape_Cylinder.035
+    2300074: Shape_Cylinder.036
+    2300076: Shape_Cylinder.037
+    2300078: Shape_Cylinder.038
+    2300080: Shape_Cylinder.039
+    2300082: Shape_Cylinder.040
+    2300084: Shape_Cylinder.041
+    2300086: Shape_Cylinder.042
+    2300088: Shape_Cylinder.043
+    2300090: Shape_Cylinder.044
+    2300092: Shape_Cylinder.045
+    2300094: Shape_Cylinder.046
+    2300096: Shape_Cylinder.047
+    2300098: Shape_Cylinder.048
+    2300100: Shape_Cylinder.049
+    2300102: Shape_Cylinder.050
+    2300104: Shape_Cylinder.051
+    2300106: Shape_Cylinder.052
+    2300108: Shape_Cylinder.053
+    2300110: Shape_Cylinder.054
+    2300112: Shape_Cylinder.055
+    2300114: Shape_Cylinder.056
+    2300116: Shape_Cylinder.057
+    2300118: Shape_Cylinder.058
+    2300120: Shape_Cylinder.059
+    2300122: Shape_Cylinder.060
+    2300124: Shape_Cylinder.061
+    2300126: Shape_Cylinder.062
+    2300128: Shape_Cylinder.063
+    2300130: Shape_Cylinder.064
+    2300132: Shape_Cylinder.065
+    2300134: Shape_Cylinder.066
+    2300136: Shape_Cylinder.067
+    2300138: Shape_Cylinder.068
+    2300140: Shape_Cylinder.069
+    2300142: Shape_Cylinder.070
+    2300144: Shape_Cylinder.071
+    2300146: Shape_Cylinder.072
+    2300148: Shape_Cylinder.073
+    2300150: Shape_Cylinder.074
+    2300152: Shape_Cylinder.075
+    2300154: Shape_Cylinder.076
+    2300156: Shape_Cylinder.077
+    2300158: Shape_Cylinder.078
+    2300160: Shape_Cylinder.079
+    2300162: Shape_Cylinder.080
+    2300164: Shape_Cylinder.081
+    2300166: Shape_Cylinder.082
+    2300168: Shape_Cylinder.083
+    2300170: Shape_Cylinder.084
+    2300172: Shape_Cylinder.085
+    2300174: Shape_Cylinder.086
+    2300176: Shape_Cylinder.087
+    2300178: Shape_Cylinder.088
+    2300180: Shape_Cylinder.089
+    2300182: Shape_Cylinder.090
+    2300184: Shape_Cylinder.091
+    2300186: Shape_Sphere
+    2300188: Shape_Sphere.001
+    2300190: Shape_Sphere.002
+    2300192: Shape_Sphere.003
+    2300194: Shape_Sphere.004
+    2300196: Shape_Sphere.005
+    2300198: Shape_Sphere.006
+    2300200: Shape_Sphere.007
+    2300202: Shape_Sphere.008
+    2300204: Shape_Sphere.009
+    2300206: Shape_Sphere.010
+    2300208: Shape_Sphere.011
+    2300210: Shape_Sphere.012
+    2300212: Shape_Sphere.013
+    2300214: Shape_Sphere.014
+    2300216: Shape_Sphere.015
+    2300218: Shape_Sphere.016
+    2300220: Shape_Sphere.017
+    2300222: Shape_Sphere.018
+    2300224: Shape_Sphere.019
+    2300226: Shape_Sphere.020
+    2300228: Shape_Sphere.021
+    2300230: Shape_Sphere.022
+    2300232: Shape_Sphere.023
+    2300234: Shape_Sphere.024
+    2300236: Shape_Sphere.025
+    2300238: Shape_Sphere.026
+    2300240: Shape_Sphere.027
+    2300242: Shape_Sphere.028
+    2300244: Shape_Sphere.029
+    2300246: Shape_Sphere.030
+    2300248: Shape_Sphere.031
+    2300250: Shape_Sphere.032
+    2300252: Shape_Sphere.033
+    2300254: Shape_Sphere.034
+    2300256: Shape_Sphere.035
+    2300258: Shape_Sphere.036
+    2300260: Shape_Sphere.037
+    2300262: Shape_Sphere.038
+    2300264: Shape_Sphere.039
+    2300266: Shape_Sphere.040
+    2300268: Shape_Sphere.041
+    2300270: Shape_Sphere.042
+    2300272: Shape_Sphere.043
+    2300274: Shape_Sphere.044
+    3300000: Electron_Density
+    3300002: Shape_Cylinder
+    3300004: Shape_Cylinder.001
+    3300006: Shape_Cylinder.002
+    3300008: Shape_Cylinder.003
+    3300010: Shape_Cylinder.004
+    3300012: Shape_Cylinder.005
+    3300014: Shape_Cylinder.006
+    3300016: Shape_Cylinder.007
+    3300018: Shape_Cylinder.008
+    3300020: Shape_Cylinder.009
+    3300022: Shape_Cylinder.010
+    3300024: Shape_Cylinder.011
+    3300026: Shape_Cylinder.012
+    3300028: Shape_Cylinder.013
+    3300030: Shape_Cylinder.014
+    3300032: Shape_Cylinder.015
+    3300034: Shape_Cylinder.016
+    3300036: Shape_Cylinder.017
+    3300038: Shape_Cylinder.018
+    3300040: Shape_Cylinder.019
+    3300042: Shape_Cylinder.020
+    3300044: Shape_Cylinder.021
+    3300046: Shape_Cylinder.022
+    3300048: Shape_Cylinder.023
+    3300050: Shape_Cylinder.024
+    3300052: Shape_Cylinder.025
+    3300054: Shape_Cylinder.026
+    3300056: Shape_Cylinder.027
+    3300058: Shape_Cylinder.028
+    3300060: Shape_Cylinder.029
+    3300062: Shape_Cylinder.030
+    3300064: Shape_Cylinder.031
+    3300066: Shape_Cylinder.032
+    3300068: Shape_Cylinder.033
+    3300070: Shape_Cylinder.034
+    3300072: Shape_Cylinder.035
+    3300074: Shape_Cylinder.036
+    3300076: Shape_Cylinder.037
+    3300078: Shape_Cylinder.038
+    3300080: Shape_Cylinder.039
+    3300082: Shape_Cylinder.040
+    3300084: Shape_Cylinder.041
+    3300086: Shape_Cylinder.042
+    3300088: Shape_Cylinder.043
+    3300090: Shape_Cylinder.044
+    3300092: Shape_Cylinder.045
+    3300094: Shape_Cylinder.046
+    3300096: Shape_Cylinder.047
+    3300098: Shape_Cylinder.048
+    3300100: Shape_Cylinder.049
+    3300102: Shape_Cylinder.050
+    3300104: Shape_Cylinder.051
+    3300106: Shape_Cylinder.052
+    3300108: Shape_Cylinder.053
+    3300110: Shape_Cylinder.054
+    3300112: Shape_Cylinder.055
+    3300114: Shape_Cylinder.056
+    3300116: Shape_Cylinder.057
+    3300118: Shape_Cylinder.058
+    3300120: Shape_Cylinder.059
+    3300122: Shape_Cylinder.060
+    3300124: Shape_Cylinder.061
+    3300126: Shape_Cylinder.062
+    3300128: Shape_Cylinder.063
+    3300130: Shape_Cylinder.064
+    3300132: Shape_Cylinder.065
+    3300134: Shape_Cylinder.066
+    3300136: Shape_Cylinder.067
+    3300138: Shape_Cylinder.068
+    3300140: Shape_Cylinder.069
+    3300142: Shape_Cylinder.070
+    3300144: Shape_Cylinder.071
+    3300146: Shape_Cylinder.072
+    3300148: Shape_Cylinder.073
+    3300150: Shape_Cylinder.074
+    3300152: Shape_Cylinder.075
+    3300154: Shape_Cylinder.076
+    3300156: Shape_Cylinder.077
+    3300158: Shape_Cylinder.078
+    3300160: Shape_Cylinder.079
+    3300162: Shape_Cylinder.080
+    3300164: Shape_Cylinder.081
+    3300166: Shape_Cylinder.082
+    3300168: Shape_Cylinder.083
+    3300170: Shape_Cylinder.084
+    3300172: Shape_Cylinder.085
+    3300174: Shape_Cylinder.086
+    3300176: Shape_Cylinder.087
+    3300178: Shape_Cylinder.088
+    3300180: Shape_Cylinder.089
+    3300182: Shape_Cylinder.090
+    3300184: Shape_Cylinder.091
+    3300186: Shape_Sphere
+    3300188: Shape_Sphere.001
+    3300190: Shape_Sphere.002
+    3300192: Shape_Sphere.003
+    3300194: Shape_Sphere.004
+    3300196: Shape_Sphere.005
+    3300198: Shape_Sphere.006
+    3300200: Shape_Sphere.007
+    3300202: Shape_Sphere.008
+    3300204: Shape_Sphere.009
+    3300206: Shape_Sphere.010
+    3300208: Shape_Sphere.011
+    3300210: Shape_Sphere.012
+    3300212: Shape_Sphere.013
+    3300214: Shape_Sphere.014
+    3300216: Shape_Sphere.015
+    3300218: Shape_Sphere.016
+    3300220: Shape_Sphere.017
+    3300222: Shape_Sphere.018
+    3300224: Shape_Sphere.019
+    3300226: Shape_Sphere.020
+    3300228: Shape_Sphere.021
+    3300230: Shape_Sphere.022
+    3300232: Shape_Sphere.023
+    3300234: Shape_Sphere.024
+    3300236: Shape_Sphere.025
+    3300238: Shape_Sphere.026
+    3300240: Shape_Sphere.027
+    3300242: Shape_Sphere.028
+    3300244: Shape_Sphere.029
+    3300246: Shape_Sphere.030
+    3300248: Shape_Sphere.031
+    3300250: Shape_Sphere.032
+    3300252: Shape_Sphere.033
+    3300254: Shape_Sphere.034
+    3300256: Shape_Sphere.035
+    3300258: Shape_Sphere.036
+    3300260: Shape_Sphere.037
+    3300262: Shape_Sphere.038
+    3300264: Shape_Sphere.039
+    3300266: Shape_Sphere.040
+    3300268: Shape_Sphere.041
+    3300270: Shape_Sphere.042
+    3300272: Shape_Sphere.043
+    3300274: Shape_Sphere.044
+    4300000: Electron_Density
+    4300002: Shape_Sphere.044
+    4300004: Shape_Sphere.043
+    4300006: Shape_Sphere.042
+    4300008: Shape_Sphere.041
+    4300010: Shape_Sphere.040
+    4300012: Shape_Sphere.039
+    4300014: Shape_Sphere.038
+    4300016: Shape_Sphere.037
+    4300018: Shape_Sphere.036
+    4300020: Shape_Sphere.035
+    4300022: Shape_Sphere.034
+    4300024: Shape_Sphere.033
+    4300026: Shape_Sphere.032
+    4300028: Shape_Sphere.031
+    4300030: Shape_Sphere.030
+    4300032: Shape_Sphere.029
+    4300034: Shape_Sphere.028
+    4300036: Shape_Sphere.027
+    4300038: Shape_Sphere.026
+    4300040: Shape_Sphere.025
+    4300042: Shape_Sphere.024
+    4300044: Shape_Sphere.023
+    4300046: Shape_Sphere.022
+    4300048: Shape_Sphere.021
+    4300050: Shape_Sphere.020
+    4300052: Shape_Sphere.019
+    4300054: Shape_Sphere.018
+    4300056: Shape_Sphere.017
+    4300058: Shape_Sphere.016
+    4300060: Shape_Sphere.015
+    4300062: Shape_Sphere.014
+    4300064: Shape_Sphere.013
+    4300066: Shape_Sphere.012
+    4300068: Shape_Sphere.011
+    4300070: Shape_Sphere.010
+    4300072: Shape_Sphere.009
+    4300074: Shape_Sphere.008
+    4300076: Shape_Sphere.007
+    4300078: Shape_Sphere.006
+    4300080: Shape_Sphere.005
+    4300082: Shape_Sphere.004
+    4300084: Shape_Sphere.003
+    4300086: Shape_Sphere.002
+    4300088: Shape_Sphere.001
+    4300090: Shape_Sphere
+    4300092: Shape_Cylinder.091
+    4300094: Shape_Cylinder.090
+    4300096: Shape_Cylinder.089
+    4300098: Shape_Cylinder.088
+    4300100: Shape_Cylinder.087
+    4300102: Shape_Cylinder.086
+    4300104: Shape_Cylinder.085
+    4300106: Shape_Cylinder.084
+    4300108: Shape_Cylinder.083
+    4300110: Shape_Cylinder.082
+    4300112: Shape_Cylinder.081
+    4300114: Shape_Cylinder.080
+    4300116: Shape_Cylinder.079
+    4300118: Shape_Cylinder.078
+    4300120: Shape_Cylinder.077
+    4300122: Shape_Cylinder.076
+    4300124: Shape_Cylinder.075
+    4300126: Shape_Cylinder.074
+    4300128: Shape_Cylinder.073
+    4300130: Shape_Cylinder.072
+    4300132: Shape_Cylinder.071
+    4300134: Shape_Cylinder.070
+    4300136: Shape_Cylinder.069
+    4300138: Shape_Cylinder.068
+    4300140: Shape_Cylinder.067
+    4300142: Shape_Cylinder.066
+    4300144: Shape_Cylinder.065
+    4300146: Shape_Cylinder.064
+    4300148: Shape_Cylinder.063
+    4300150: Shape_Cylinder.062
+    4300152: Shape_Cylinder.061
+    4300154: Shape_Cylinder.060
+    4300156: Shape_Cylinder.059
+    4300158: Shape_Cylinder.058
+    4300160: Shape_Cylinder.057
+    4300162: Shape_Cylinder.056
+    4300164: Shape_Cylinder.055
+    4300166: Shape_Cylinder.054
+    4300168: Shape_Cylinder.053
+    4300170: Shape_Cylinder.052
+    4300172: Shape_Cylinder.051
+    4300174: Shape_Cylinder.050
+    4300176: Shape_Cylinder.049
+    4300178: Shape_Cylinder.048
+    4300180: Shape_Cylinder.047
+    4300182: Shape_Cylinder.046
+    4300184: Shape_Cylinder.045
+    4300186: Shape_Cylinder.044
+    4300188: Shape_Cylinder.043
+    4300190: Shape_Cylinder.042
+    4300192: Shape_Cylinder.041
+    4300194: Shape_Cylinder.040
+    4300196: Shape_Cylinder.039
+    4300198: Shape_Cylinder.038
+    4300200: Shape_Cylinder.037
+    4300202: Shape_Cylinder.036
+    4300204: Shape_Cylinder.035
+    4300206: Shape_Cylinder.034
+    4300208: Shape_Cylinder.033
+    4300210: Shape_Cylinder.032
+    4300212: Shape_Cylinder.031
+    4300214: Shape_Cylinder.030
+    4300216: Shape_Cylinder.029
+    4300218: Shape_Cylinder.028
+    4300220: Shape_Cylinder.027
+    4300222: Shape_Cylinder.026
+    4300224: Shape_Cylinder.025
+    4300226: Shape_Cylinder.024
+    4300228: Shape_Cylinder.023
+    4300230: Shape_Cylinder.022
+    4300232: Shape_Cylinder.021
+    4300234: Shape_Cylinder.020
+    4300236: Shape_Cylinder.019
+    4300238: Shape_Cylinder.018
+    4300240: Shape_Cylinder.017
+    4300242: Shape_Cylinder.016
+    4300244: Shape_Cylinder.015
+    4300246: Shape_Cylinder.014
+    4300248: Shape_Cylinder.013
+    4300250: Shape_Cylinder.012
+    4300252: Shape_Cylinder.011
+    4300254: Shape_Cylinder.010
+    4300256: Shape_Cylinder.009
+    4300258: Shape_Cylinder.008
+    4300260: Shape_Cylinder.007
+    4300262: Shape_Cylinder.006
+    4300264: Shape_Cylinder.005
+    4300266: Shape_Cylinder.004
+    4300268: Shape_Cylinder.003
+    4300270: Shape_Cylinder.002
+    4300272: Shape_Cylinder.001
+    4300274: Shape_Cylinder
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape
+    second: {fileID: 2100000, guid: 48540495c51088f4e9cd0e9c3ee16d1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.001
+    second: {fileID: 2100000, guid: d11c4a2388fbd6942a9512a27e1a64c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.002
+    second: {fileID: 2100000, guid: 8a94f68a97135d440a20135137c0c682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.003
+    second: {fileID: 2100000, guid: 15d0a9d562148d549b9e3b9bf03f8d6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.004
+    second: {fileID: 2100000, guid: 402a58221bf92bb4bb0a3324dd0090a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.005
+    second: {fileID: 2100000, guid: 2e244cd48aedb8449986208cd3dd8485, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.006
+    second: {fileID: 2100000, guid: db59345d52bf92d4e8e664a8c7c9610c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.007
+    second: {fileID: 2100000, guid: 4c0d0c014bf5d884e8760848f8b57e19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.008
+    second: {fileID: 2100000, guid: adfa70e1841bf694b8bc0fb2a5b3c8db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.009
+    second: {fileID: 2100000, guid: 6fe5f8e4bf72418458f4874ec94d14dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.010
+    second: {fileID: 2100000, guid: dd7090e2c533208449591bc5ade59fdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.011
+    second: {fileID: 2100000, guid: 21153b729183faf4bba83966bdd24f02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.012
+    second: {fileID: 2100000, guid: e0c56b1413ce071448f5fd65cc28bde7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.013
+    second: {fileID: 2100000, guid: c5aeca1842e97024994e7576e8fffef1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.014
+    second: {fileID: 2100000, guid: ec5ef15c7da2bae4897504be7015cb0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.015
+    second: {fileID: 2100000, guid: 7f4e36ad48607494d9ab06ed74c4f6de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.016
+    second: {fileID: 2100000, guid: 7f353bf2a345e254482f75570d1077d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.017
+    second: {fileID: 2100000, guid: 3f17d7f2deb3a2645b277720858efa50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.018
+    second: {fileID: 2100000, guid: b093453f3cb2c5a4392db2a937748e06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.019
+    second: {fileID: 2100000, guid: a1e7a1efc632df944b7ff77b80a35baf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.020
+    second: {fileID: 2100000, guid: e26aa2d8245b76e4ca0b8ef59b17a2fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.021
+    second: {fileID: 2100000, guid: 395f0d0939e6f944da189c18a633fbc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.022
+    second: {fileID: 2100000, guid: b060473ad71d04f4292c14ffc18db87c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.023
+    second: {fileID: 2100000, guid: 60f1d42f09081034b9f9d8e459113ae6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.024
+    second: {fileID: 2100000, guid: 380f32f53a913874cb43e9441035aa37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.025
+    second: {fileID: 2100000, guid: f2d565f7ba14d114782ff1e7499166d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.026
+    second: {fileID: 2100000, guid: a1728e904c6ea0d4eb9b38831839df95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.027
+    second: {fileID: 2100000, guid: fad43a63c213c8447a365db5bea5357e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.028
+    second: {fileID: 2100000, guid: ab734a306cdec0b48acf96e06b345968, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.029
+    second: {fileID: 2100000, guid: f04ac61dcacb6fd41ae16e31354c9934, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.030
+    second: {fileID: 2100000, guid: 9385b91a98d086c4389d9d0372f39da4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.031
+    second: {fileID: 2100000, guid: 1343bf8adca6ac7439fe9ed005aefa7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.032
+    second: {fileID: 2100000, guid: d4e84c56ad7a782469686fc64c7de84a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.033
+    second: {fileID: 2100000, guid: ffe557405c5d79243a8d3305533b78f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.034
+    second: {fileID: 2100000, guid: 237dee22513a6144a99af01f05bdcc4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.035
+    second: {fileID: 2100000, guid: d86097b398d0db149a02ba46a1d17263, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.036
+    second: {fileID: 2100000, guid: 2d6a430dda834624daa92d0897a1680a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.037
+    second: {fileID: 2100000, guid: 2a7267a50ad9f8f4f90a6cd65af81212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.038
+    second: {fileID: 2100000, guid: 42168f82e04d11f4989f0d33111d9e6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.039
+    second: {fileID: 2100000, guid: 1948d8999f3954c4f944f4e3f66f730f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.040
+    second: {fileID: 2100000, guid: 0e04b9cfbcc728d4ba5a3ff9b38b56cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.041
+    second: {fileID: 2100000, guid: aadaa93d2a7b91f478e4ceb0c8f0f225, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.042
+    second: {fileID: 2100000, guid: 9647594f838e819459185d51c820aa45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.043
+    second: {fileID: 2100000, guid: 5285e12a7324d4942b56cbe98afd2944, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.044
+    second: {fileID: 2100000, guid: f2a82f5f2486f224889c4465dc47bb71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.045
+    second: {fileID: 2100000, guid: 588eb15b6f8dbec4592cf12e16d36b4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.046
+    second: {fileID: 2100000, guid: 36fbbd4eab1ebef40bf4a60773fc9d77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.047
+    second: {fileID: 2100000, guid: 1d39f47448883344fa94f8fc4850ae23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.048
+    second: {fileID: 2100000, guid: 4e9960cef04c9594083fb58a71491733, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.049
+    second: {fileID: 2100000, guid: a0cb5fa907d448742a9ed46d6d6766b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.050
+    second: {fileID: 2100000, guid: 958fc2b65464a36499584572a19197ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.051
+    second: {fileID: 2100000, guid: 262041e6e856ec748848c482f6e6a606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.052
+    second: {fileID: 2100000, guid: 0ea8c6cfeb84ef2419a23fea088b09f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.053
+    second: {fileID: 2100000, guid: 9b0b35c5cca05ad488be51d518b990b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.054
+    second: {fileID: 2100000, guid: 72fe01c3447324a479f10063c94969f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.055
+    second: {fileID: 2100000, guid: 986b8f801d8daf249ae4218d67ad3fe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.056
+    second: {fileID: 2100000, guid: 3bce4a6d114239b4e822b25056036bb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.057
+    second: {fileID: 2100000, guid: f58ecc519e1c6c04581a43cddd62290c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.058
+    second: {fileID: 2100000, guid: 9f26d7081fd1b7c44a945223dae197d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.059
+    second: {fileID: 2100000, guid: 0ac88bc4c8c0ae34ea085fa29de95106, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.060
+    second: {fileID: 2100000, guid: 3ee48dc4c15779e48a5349d6ff219908, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.061
+    second: {fileID: 2100000, guid: 2efdfdadaef14df489a172cb727a6963, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.062
+    second: {fileID: 2100000, guid: cb1b5b27d4d3865448dad0338f2968ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.063
+    second: {fileID: 2100000, guid: 54f10e4536c308848b8fc5938a7dfee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.064
+    second: {fileID: 2100000, guid: 3665b3d9d21472741a9685205b3b8e8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.065
+    second: {fileID: 2100000, guid: 0223273a88ae2614eb5ac772a3483b34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.066
+    second: {fileID: 2100000, guid: 60241598d3b86954da699353542d2285, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.067
+    second: {fileID: 2100000, guid: ace93d57a446960429d68561e43ed75f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.068
+    second: {fileID: 2100000, guid: 8b23ff02169bdde4c8e1310df7fcdc00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.069
+    second: {fileID: 2100000, guid: 46ea39082ee30d644b49f3a27194716d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.070
+    second: {fileID: 2100000, guid: 2e96e04c245c208498e46c8aec89373c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.071
+    second: {fileID: 2100000, guid: 3beaf701d23d35b4c840163a1704c69b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.072
+    second: {fileID: 2100000, guid: db48b12f4753a844bb51c9d190659621, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.073
+    second: {fileID: 2100000, guid: 8df0ee561d347d1409e14194eacfe0db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.074
+    second: {fileID: 2100000, guid: 598f3443a9f67bb41be44dbee7db60a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.075
+    second: {fileID: 2100000, guid: f0ff913b8c60d2748984235353e1e358, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.076
+    second: {fileID: 2100000, guid: 52becbeed4e5223438efcfcef85e0a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.077
+    second: {fileID: 2100000, guid: a32519af07f449541ab14aa3bf4c2d55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.078
+    second: {fileID: 2100000, guid: 9485ff0afac324745ba10ac15c25f08f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.079
+    second: {fileID: 2100000, guid: c556b0e24037c6147a8beb55b0306bd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.080
+    second: {fileID: 2100000, guid: 0daf2cb51a1834140bd5fb5f2216a858, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.081
+    second: {fileID: 2100000, guid: 56f5d287a73bad34fb1e7476b509ec31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.082
+    second: {fileID: 2100000, guid: 042b106413157424ea22f1fcef3a8e37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.083
+    second: {fileID: 2100000, guid: 734df24c26169944f8b01e1362ac8e0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.084
+    second: {fileID: 2100000, guid: 903fad4515ec06746ae2730e5bdeb557, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.085
+    second: {fileID: 2100000, guid: f8a9ce2a87494eb469cdc2539e70a1d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.086
+    second: {fileID: 2100000, guid: 00c5294aa2240a842bec868c434889df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.087
+    second: {fileID: 2100000, guid: 80a5490ebc7ed1347a640d2b5a7868fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.088
+    second: {fileID: 2100000, guid: 9b2d57c585bbde541a85c7ca82e82ed3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.089
+    second: {fileID: 2100000, guid: 69bea0a4360c7e24cb81d4898bb43ff5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.090
+    second: {fileID: 2100000, guid: a8b6bb39d2849624990f002f632cae42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.091
+    second: {fileID: 2100000, guid: 482aa770f2b5e214bb7d9cb978239204, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.092
+    second: {fileID: 2100000, guid: 68c0d7c682da9b0408c8a6b4029729ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.093
+    second: {fileID: 2100000, guid: e4b28eca78b50064993ae9db4195a5e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.094
+    second: {fileID: 2100000, guid: 36e86ef2e4294be4684d89b11ea3cc2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.095
+    second: {fileID: 2100000, guid: 405a960b6902f1c49997335c245ef02e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.096
+    second: {fileID: 2100000, guid: 7a28bf9cf649c9a47bcd7072e38d37dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.097
+    second: {fileID: 2100000, guid: 2502c68695895c748aaae5ebd6a90bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.098
+    second: {fileID: 2100000, guid: 4b399745fef59a34fba5e5eaaa30519c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.099
+    second: {fileID: 2100000, guid: f1fc9449cc1e0c945aed4fd37c517ef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.100
+    second: {fileID: 2100000, guid: b455ee128526ac0458d197bbf50b2bc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.101
+    second: {fileID: 2100000, guid: 3368e0d7e01d26241b38f00f949f2e8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.102
+    second: {fileID: 2100000, guid: 97656e7635f9b1e47b044cd9f26d5845, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.103
+    second: {fileID: 2100000, guid: 1eece95df5c252b40a15f78959404796, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.104
+    second: {fileID: 2100000, guid: dd1ed2f048ca8b64ca5a1d07d0611b22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.105
+    second: {fileID: 2100000, guid: b47465b571a60b5458d4ee48f966a9fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.106
+    second: {fileID: 2100000, guid: b35bc2487a51b254bb96aa421d43c60d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.107
+    second: {fileID: 2100000, guid: 648ec5fd04684f84ba4e6fd07fe1dbce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.108
+    second: {fileID: 2100000, guid: ce798d16143dcf54db35a4c431d20d59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.109
+    second: {fileID: 2100000, guid: e4e17b322f6694045aba3d20d998c20e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.110
+    second: {fileID: 2100000, guid: ba8f8722ce865684fbb58103d2ff475e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.111
+    second: {fileID: 2100000, guid: ffb7fa92549c8c343b1554d38af25a82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.112
+    second: {fileID: 2100000, guid: 2b99b73f4b4d8a344bfcb18ba59066c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.113
+    second: {fileID: 2100000, guid: 658ccccb39c6b8e4489a368c2be9e1ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.114
+    second: {fileID: 2100000, guid: 09a0b5bc5b20a03419fc61bbdc7d6881, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.115
+    second: {fileID: 2100000, guid: 65eee421f7db9224abe151c4e425f3a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.116
+    second: {fileID: 2100000, guid: 56665672868619d488bbf84a61b6804d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.117
+    second: {fileID: 2100000, guid: 7c4c7581a554fb0418e5ce81a748bd37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.118
+    second: {fileID: 2100000, guid: ae7018a2653c2d74abc1baf028c55d4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.119
+    second: {fileID: 2100000, guid: 101b51cabbd1fd945a09e29adc04e73f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.120
+    second: {fileID: 2100000, guid: 77993804fd516164abb0de1b539da2eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.121
+    second: {fileID: 2100000, guid: 846f2d60df2a3934fa5da6cc923398de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.122
+    second: {fileID: 2100000, guid: d21a78ff0ba5dcb47a2660c015012fe9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.123
+    second: {fileID: 2100000, guid: ae3dc2a3da679c946903ff906c7a6fd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.124
+    second: {fileID: 2100000, guid: b185b54154ee7e94a8e7971d564d2cdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.125
+    second: {fileID: 2100000, guid: 2ac297a771fe50f47ba034827a61399e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.126
+    second: {fileID: 2100000, guid: 1a1e17c8b4ccda944b95ca40944b825b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.127
+    second: {fileID: 2100000, guid: 5aa93faf0e734844f8d93d420fbb37c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.128
+    second: {fileID: 2100000, guid: 67ae8ee880d53d14ca95467519421450, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.129
+    second: {fileID: 2100000, guid: 5f7f241d90ef06340a8b767af7891b43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.130
+    second: {fileID: 2100000, guid: 9095ba38601dbd54b9e464b542be3228, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.131
+    second: {fileID: 2100000, guid: 760958ed51936f54bac8b0824f146b7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.132
+    second: {fileID: 2100000, guid: 504b019a766c09a4aa1771831aa14e10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.133
+    second: {fileID: 2100000, guid: 611451ba30148854eac3195e4db6355b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.134
+    second: {fileID: 2100000, guid: c218b39aa7559964c8b2ca0da56acad5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.135
+    second: {fileID: 2100000, guid: c25746786ad7d6a44b406e64319c8893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.136
+    second: {fileID: 2100000, guid: b46dfdc66fde6d34986d21de9e291380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.137
+    second: {fileID: 2100000, guid: 141e6374ba4f0d44291d1d4cb1dcf9d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.138
+    second: {fileID: 2100000, guid: c1d4f26caaaf0c840b6feced8091a5b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.139
+    second: {fileID: 2100000, guid: 3f05a345465fb504eb8ffaf74223e541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.140
+    second: {fileID: 2100000, guid: 048b126c4ebd5d34c9e94dc955129036, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.141
+    second: {fileID: 2100000, guid: d523f340928884042b2091b866915b89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.142
+    second: {fileID: 2100000, guid: 8e1301f6849438e45aa91abe8f588b67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.143
+    second: {fileID: 2100000, guid: 76e15a5196dcbea43811c58091951105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.144
+    second: {fileID: 2100000, guid: ba29b7e1a3289b747abb764251ffba52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.145
+    second: {fileID: 2100000, guid: 7364ccb7a2c143f42a79198cff64f130, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.146
+    second: {fileID: 2100000, guid: 9a363ecd1e9f32546960f8f2533e3509, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.147
+    second: {fileID: 2100000, guid: 6ec37f07652fe3547b47e67f1bcf3612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.148
+    second: {fileID: 2100000, guid: 1d1083fe0a7702441bc1f990d9cdc5cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.149
+    second: {fileID: 2100000, guid: adab27e07c0238541a84fc34b949ed6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.150
+    second: {fileID: 2100000, guid: 9bf6d2579e3a00d46b08397924577950, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.151
+    second: {fileID: 2100000, guid: 69a923ebea21d9943a35e9e616064aba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.152
+    second: {fileID: 2100000, guid: 8e23db4fbf237d8469661b3f0336ba01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.153
+    second: {fileID: 2100000, guid: d057563ad6ed6ee45bc1b96481b1f801, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.154
+    second: {fileID: 2100000, guid: 142a14993cc48da48a472a418435a8b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.155
+    second: {fileID: 2100000, guid: c6cab0911b05f7b4c91b65557261b13a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.156
+    second: {fileID: 2100000, guid: 87c7e34dbbcf3a646933dd5daba7d15f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.157
+    second: {fileID: 2100000, guid: d07bb1a4e43044c4f983ad652047bb65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.158
+    second: {fileID: 2100000, guid: 03fa76f1c90141846a09ced645a2675c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.159
+    second: {fileID: 2100000, guid: 220603e26ea2c3c4dab74ee5e4a6127e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.160
+    second: {fileID: 2100000, guid: 146697dbf8bf11543a3f006a34a36318, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.161
+    second: {fileID: 2100000, guid: 0c92785b96c3c034b832967faddff7ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.162
+    second: {fileID: 2100000, guid: 6dfd8dd7731c5144088a142a04aa54d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.163
+    second: {fileID: 2100000, guid: 48f2511bd1f83ce40a9ac3c1ae615cd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.164
+    second: {fileID: 2100000, guid: 925d5c63c07f7264a93aa6f56370c046, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.165
+    second: {fileID: 2100000, guid: 23675524dc24a304c8a109f4f5ed9bcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.166
+    second: {fileID: 2100000, guid: 99abbfa1dead7f4489fe08455f045e10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.167
+    second: {fileID: 2100000, guid: 642dd208dc2b2e847899fcdc89ea8c6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.168
+    second: {fileID: 2100000, guid: fe46883f992d83d4ba91702b91b7ce9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.169
+    second: {fileID: 2100000, guid: a6a3ef9dc75eb524397af7579471f474, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.170
+    second: {fileID: 2100000, guid: 1e6d2189d2303d740abecbaf4d212210, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.171
+    second: {fileID: 2100000, guid: 3770fd4e1d513644e8dcce04d2f9184e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.172
+    second: {fileID: 2100000, guid: 0f84b01250dd33747beeaa22a9c91971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.173
+    second: {fileID: 2100000, guid: 027aeab36f49ea34285d0024fa830f97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.174
+    second: {fileID: 2100000, guid: 81bcb289194dada499007ebafd114ec1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.175
+    second: {fileID: 2100000, guid: f517370c699819644a356dd417facf08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.176
+    second: {fileID: 2100000, guid: 6e9765cd8e69cb54281c574cc641a045, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.177
+    second: {fileID: 2100000, guid: 1fdc757745771614192d41e849f1d1a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.178
+    second: {fileID: 2100000, guid: a231f4e64dacac644a25b1ed3c37fd59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.179
+    second: {fileID: 2100000, guid: 7ab1fa38bbbe7d349bd8768cca9e71f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.180
+    second: {fileID: 2100000, guid: ae8a7a3fa8ee6a34ba22325517225989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.181
+    second: {fileID: 2100000, guid: f1971507336fd16429d4c8d279b05fbc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: molecules
+  assetBundleVariant: edmc

@@ -3,7 +3,7 @@ guid: 54a101949777e4f2da14b7edd485d10e
 timeCreated: 1529695983
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: atom0_IndexedFaceSet
@@ -2019,10 +2019,12 @@ ModelImporter:
     4300530: Shape_IndexedFaceSet.142
     4300532: Shape_IndexedFaceSet.143
     4300534: Shape_IndexedFaceSet.144
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -2035,6 +2037,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -2093,4 +2096,4 @@ ModelImporter:
   additionalBone: 0
   userData: 
   assetBundleName: molecules
-  assetBundleVariant: 
+  assetBundleVariant: edmc

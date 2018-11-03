@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: 93d0e0529aa38584290bc7b719cb1ee0
+timeCreated: 1540874980
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Electron_Density
+    100002: //RootNode
+    100004: Shape_Cylinder
+    100006: Shape_Cylinder.001
+    100008: Shape_Cylinder.002
+    100010: Shape_Cylinder.003
+    100012: Shape_Cylinder.004
+    100014: Shape_Cylinder.005
+    100016: Shape_Cylinder.006
+    100018: Shape_Cylinder.007
+    100020: Shape_Cylinder.008
+    100022: Shape_Cylinder.009
+    100024: Shape_Cylinder.010
+    100026: Shape_Cylinder.011
+    100028: Shape_Cylinder.012
+    100030: Shape_Cylinder.013
+    100032: Shape_Cylinder.014
+    100034: Shape_Cylinder.015
+    100036: Shape_Sphere
+    100038: Shape_Sphere.001
+    100040: Shape_Sphere.002
+    100042: Shape_Sphere.003
+    100044: Shape_Sphere.004
+    100046: Shape_Sphere.005
+    100048: Shape_Sphere.006
+    100050: Shape_Sphere.007
+    100052: Shape_Sphere.008
+    400000: Electron_Density
+    400002: //RootNode
+    400004: Shape_Cylinder
+    400006: Shape_Cylinder.001
+    400008: Shape_Cylinder.002
+    400010: Shape_Cylinder.003
+    400012: Shape_Cylinder.004
+    400014: Shape_Cylinder.005
+    400016: Shape_Cylinder.006
+    400018: Shape_Cylinder.007
+    400020: Shape_Cylinder.008
+    400022: Shape_Cylinder.009
+    400024: Shape_Cylinder.010
+    400026: Shape_Cylinder.011
+    400028: Shape_Cylinder.012
+    400030: Shape_Cylinder.013
+    400032: Shape_Cylinder.014
+    400034: Shape_Cylinder.015
+    400036: Shape_Sphere
+    400038: Shape_Sphere.001
+    400040: Shape_Sphere.002
+    400042: Shape_Sphere.003
+    400044: Shape_Sphere.004
+    400046: Shape_Sphere.005
+    400048: Shape_Sphere.006
+    400050: Shape_Sphere.007
+    400052: Shape_Sphere.008
+    2300000: Electron_Density
+    2300002: Shape_Cylinder
+    2300004: Shape_Cylinder.001
+    2300006: Shape_Cylinder.002
+    2300008: Shape_Cylinder.003
+    2300010: Shape_Cylinder.004
+    2300012: Shape_Cylinder.005
+    2300014: Shape_Cylinder.006
+    2300016: Shape_Cylinder.007
+    2300018: Shape_Cylinder.008
+    2300020: Shape_Cylinder.009
+    2300022: Shape_Cylinder.010
+    2300024: Shape_Cylinder.011
+    2300026: Shape_Cylinder.012
+    2300028: Shape_Cylinder.013
+    2300030: Shape_Cylinder.014
+    2300032: Shape_Cylinder.015
+    2300034: Shape_Sphere
+    2300036: Shape_Sphere.001
+    2300038: Shape_Sphere.002
+    2300040: Shape_Sphere.003
+    2300042: Shape_Sphere.004
+    2300044: Shape_Sphere.005
+    2300046: Shape_Sphere.006
+    2300048: Shape_Sphere.007
+    2300050: Shape_Sphere.008
+    3300000: Electron_Density
+    3300002: Shape_Cylinder
+    3300004: Shape_Cylinder.001
+    3300006: Shape_Cylinder.002
+    3300008: Shape_Cylinder.003
+    3300010: Shape_Cylinder.004
+    3300012: Shape_Cylinder.005
+    3300014: Shape_Cylinder.006
+    3300016: Shape_Cylinder.007
+    3300018: Shape_Cylinder.008
+    3300020: Shape_Cylinder.009
+    3300022: Shape_Cylinder.010
+    3300024: Shape_Cylinder.011
+    3300026: Shape_Cylinder.012
+    3300028: Shape_Cylinder.013
+    3300030: Shape_Cylinder.014
+    3300032: Shape_Cylinder.015
+    3300034: Shape_Sphere
+    3300036: Shape_Sphere.001
+    3300038: Shape_Sphere.002
+    3300040: Shape_Sphere.003
+    3300042: Shape_Sphere.004
+    3300044: Shape_Sphere.005
+    3300046: Shape_Sphere.006
+    3300048: Shape_Sphere.007
+    3300050: Shape_Sphere.008
+    4300000: Electron_Density
+    4300002: Shape_Sphere.008
+    4300004: Shape_Sphere.007
+    4300006: Shape_Sphere.006
+    4300008: Shape_Sphere.005
+    4300010: Shape_Sphere.004
+    4300012: Shape_Sphere.003
+    4300014: Shape_Sphere.002
+    4300016: Shape_Sphere.001
+    4300018: Shape_Sphere
+    4300020: Shape_Cylinder.015
+    4300022: Shape_Cylinder.014
+    4300024: Shape_Cylinder.013
+    4300026: Shape_Cylinder.012
+    4300028: Shape_Cylinder.011
+    4300030: Shape_Cylinder.010
+    4300032: Shape_Cylinder.009
+    4300034: Shape_Cylinder.008
+    4300036: Shape_Cylinder.007
+    4300038: Shape_Cylinder.006
+    4300040: Shape_Cylinder.005
+    4300042: Shape_Cylinder.004
+    4300044: Shape_Cylinder.003
+    4300046: Shape_Cylinder.002
+    4300048: Shape_Cylinder.001
+    4300050: Shape_Cylinder
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape
+    second: {fileID: 2100000, guid: 0e8a8f6e04e34774bb73a2d87288e9b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.001
+    second: {fileID: 2100000, guid: cd4693f4b220cc64886dad09febce2d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.002
+    second: {fileID: 2100000, guid: 3f639e06fbb838e45a5f4cb3ecba8de0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.003
+    second: {fileID: 2100000, guid: b184f78554079ce4194a239374e5329a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.004
+    second: {fileID: 2100000, guid: ffd1da79e7c33cd428c03b8f48a8ec92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.005
+    second: {fileID: 2100000, guid: 9dad34d86cc921d4784d26f3d00d61ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.006
+    second: {fileID: 2100000, guid: e3cb2f2f0e5f496438039be84669e4be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.007
+    second: {fileID: 2100000, guid: d39aa66ace06e85449f5cbfe5f76bfbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.008
+    second: {fileID: 2100000, guid: b8a22bb565413524db98029c1fc7b3d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.009
+    second: {fileID: 2100000, guid: cf783a15ff0c4e148a3d9d00708885c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.010
+    second: {fileID: 2100000, guid: d4d7f6c84d1cd0e49a6fa28bee02cc3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.011
+    second: {fileID: 2100000, guid: 7fba2d5ab3ed83a4ab7ee917bb8a5562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.012
+    second: {fileID: 2100000, guid: 2228af1f20375ca4f852acdf40c41266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.013
+    second: {fileID: 2100000, guid: ecd4325233ce830478c226363c2b1a93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.014
+    second: {fileID: 2100000, guid: 977fce4e252e6ce41891e1d0f843e06b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.015
+    second: {fileID: 2100000, guid: c4cbfe3db35432f418268d45c5512683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.016
+    second: {fileID: 2100000, guid: ccf5d7d97ba0bcf4fa32ade2228fe028, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.017
+    second: {fileID: 2100000, guid: 93d5dcf42f7965249845dc85fe56b3a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.018
+    second: {fileID: 2100000, guid: 0b74b743881dab14f9fb2b140fe8f85d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.019
+    second: {fileID: 2100000, guid: b1183b855e8053c4c9893824ea0ff4ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.020
+    second: {fileID: 2100000, guid: cda2308584721f149a0d57382a896d96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.021
+    second: {fileID: 2100000, guid: a35fbd7ec53ae1243b88959eca7af0ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.022
+    second: {fileID: 2100000, guid: 87e5fdc0681f0a74aabdf36c12ff80f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.023
+    second: {fileID: 2100000, guid: 7d3e0731c3a925043b43eb0463db0001, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.024
+    second: {fileID: 2100000, guid: 00da448903b42f343bdf6e0d7ec07490, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.025
+    second: {fileID: 2100000, guid: 2a2be477342a6734686543de885f862d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.026
+    second: {fileID: 2100000, guid: 0a7a2104914111345ac42d59344df15d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.027
+    second: {fileID: 2100000, guid: 9377b7dd031fa4549a14e8ebf6ef352f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.028
+    second: {fileID: 2100000, guid: d608b0319e133774e9557075ab039061, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.029
+    second: {fileID: 2100000, guid: 1ff9a7d371a903547bb5e6bc60b32beb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.030
+    second: {fileID: 2100000, guid: 6fe217d532063994493edbd6998b96de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.031
+    second: {fileID: 2100000, guid: 17f97ac522e969c46b43c24930e4b24a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.032
+    second: {fileID: 2100000, guid: f5f1a37ea57d6e147ad2baab27fcfda6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape.033
+    second: {fileID: 2100000, guid: e05fb6d404c389f4ead3d7ceb09981bf, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: molecules
+  assetBundleVariant: edmc

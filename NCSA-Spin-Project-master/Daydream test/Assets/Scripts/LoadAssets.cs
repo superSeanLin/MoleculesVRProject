@@ -10,6 +10,8 @@ public class LoadAssets: MonoBehaviour
     public GameObject myCanvas;
     public UIManager uiManager;
 
+    public Material[] m_Materials;
+
     public IEnumerator Start()
     {
     	//uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
@@ -48,6 +50,9 @@ public class LoadAssets: MonoBehaviour
         molecule.transform.position = position;
         molecule.tag = "mc";
         molecule.name = UIManager.moleculeNames[random_number];
+
+
+
         // set molecule parent and set relative position
         molecule.transform.SetParent(myCanvas.transform, false);
         // free assetbundle and real object will be intact

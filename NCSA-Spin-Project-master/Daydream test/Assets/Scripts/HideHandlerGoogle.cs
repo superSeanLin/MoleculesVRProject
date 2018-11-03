@@ -12,7 +12,6 @@ public class HideHandlerGoogle : MonoBehaviour, IPointerClickHandler {
     // use one button toggled
     public GameObject ON_OFF_Button;
 
-
     public void Start()
     {
         ON_OFF_Button = GameObject.Find("Polyhedral_Controller Google");
@@ -24,8 +23,9 @@ public class HideHandlerGoogle : MonoBehaviour, IPointerClickHandler {
         if (array.Length == 0 && molecule == null)
         {
             array = GameObject.FindGameObjectsWithTag("edmc");
-            molecule = array[0];
         }
+        else
+            molecule = array[0];
     }
 
    public void OnPointerClick(PointerEventData data){

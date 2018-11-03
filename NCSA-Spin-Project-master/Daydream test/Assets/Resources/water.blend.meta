@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 8f350f8b620c6044aa772d1e0e0626a1
+timeCreated: 1540861839
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Electron_Density
+    100002: Shape_Cylinder
+    100004: Shape_Cylinder_001
+    100006: Shape_Cylinder_002
+    100008: Shape_Cylinder_003
+    100010: Shape_Sphere
+    100012: Shape_Sphere_001
+    100014: Shape_Sphere_002
+    100016: //RootNode
+    400000: Electron_Density
+    400002: Shape_Cylinder
+    400004: Shape_Cylinder_001
+    400006: Shape_Cylinder_002
+    400008: Shape_Cylinder_003
+    400010: Shape_Sphere
+    400012: Shape_Sphere_001
+    400014: Shape_Sphere_002
+    400016: //RootNode
+    2300000: Electron_Density
+    2300002: Shape_Cylinder
+    2300004: Shape_Cylinder_001
+    2300006: Shape_Cylinder_002
+    2300008: Shape_Cylinder_003
+    2300010: Shape_Sphere
+    2300012: Shape_Sphere_001
+    2300014: Shape_Sphere_002
+    3300000: Electron_Density
+    3300002: Shape_Cylinder
+    3300004: Shape_Cylinder_001
+    3300006: Shape_Cylinder_002
+    3300008: Shape_Cylinder_003
+    3300010: Shape_Sphere
+    3300012: Shape_Sphere_001
+    3300014: Shape_Sphere_002
+    4300000: Electron_Density
+    4300002: Shape_Sphere_002
+    4300004: Shape_Sphere_001
+    4300006: Shape_Sphere
+    4300008: Shape_Cylinder_003
+    4300010: Shape_Cylinder_002
+    4300012: Shape_Cylinder_001
+    4300014: Shape_Cylinder
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape
+    second: {fileID: 2100000, guid: ec93fe585d0b747d88f0ae0f5b9d214c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_001
+    second: {fileID: 2100000, guid: 06648a021df05604494cf4aab7bf9b66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_002
+    second: {fileID: 2100000, guid: 5477d99a5cfca0e4ba818f3a0eef8bf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_003
+    second: {fileID: 2100000, guid: bbfc1ef92f5ac904081e70d9460c52b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_004
+    second: {fileID: 2100000, guid: 0e9f96e8b532bc74c82592920d0d8cf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_005
+    second: {fileID: 2100000, guid: a52e18dbe78cd674785cb5ef87ba5960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_006
+    second: {fileID: 2100000, guid: 978da454a1393064fb1f32bfd7305ee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_010
+    second: {fileID: 2100000, guid: d173eaab252d8444cb7328325d1d8799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_011
+    second: {fileID: 2100000, guid: 9235597de0c758f419070e5bec7ec51d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_012
+    second: {fileID: 2100000, guid: 4fb89c47a7fe2414dac1a48061c08409, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: molecules
+  assetBundleVariant: edmc

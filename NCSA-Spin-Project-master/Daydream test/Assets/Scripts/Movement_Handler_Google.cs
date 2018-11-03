@@ -1,4 +1,5 @@
 ﻿using HoloToolkit.Unity.InputModule;
+using System.Linq;
 using HoloToolkit.Unity.InputModule.Examples.Grabbables;
 using HoloToolkit.Unity.InputModule.Tests;
 using System.Collections;
@@ -27,19 +28,24 @@ public class Movement_Handler_Google : MonoBehaviour, IPointerClickHandler {
         if (array.Length == 0 && molecule == null)
         {
             array = GameObject.FindGameObjectsWithTag("edmc");
-            molecule = array[0];
         }
+        else
+            molecule = array[0];
     }
 
 	public void OnPointerClick(PointerEventData data) {
 		// GvrControllerInput.AppButton
-		if(ON_OFF_Button.GetComponentsInChildren<Text>()[0].text == "Movement Mode ON"){ // not able to move
-			// remove old Sphere Collider
-			MeshRenderer[] objects = molecule.GetComponentsInChildren<MeshRenderer>();
-			foreach (MeshRenderer i in objects){
-				GameObject atom = i.gameObject;
-				Destroy(atom.GetComponent<SphereCollider>());
-			}
+        if (ON_OFF_Button.GetComponentsInChildren<Text>()[0].text == "Movement Mode ON")
+        { // not able to move
+          // remove old Sphere Collider
+            Debug.Log("1");
+            List<GameObject> l = new List<Transform>(molecule.transform.GetComponentsInChildren<Transform>()).ConvertAll<GameObject>(delegate (Transform p_it) { return p_it.gameObject; });
+            foreach (GameObject i in l)
+            {
+                GameObject atom = i.gameObject;
+                Destroy(atom.GetComponent<SphereCollider>());
+            }
+            Debug.Log("2");
             // add grabbable script
 
             //molecule.AddComponent<InputTest>();
@@ -47,27 +53,34 @@ public class Movement_Handler_Google : MonoBehaviour, IPointerClickHandler {
 
             // add Sphere Collider
             molecule.AddComponent<GrabbableSimple>();
-			SphereCollider collider_molecule = molecule.AddComponent<SphereCollider>() as SphereCollider;
-    		collider_molecule.radius = 10;
-			ON_OFF_Button.GetComponentsInChildren<Text>()[0].text = "Movement Mode OFF";
+            Debug.Log("3");
+            SphereCollider collider_molecule = molecule.AddComponent<SphereCollider>() as SphereCollider;
+            if (molecule.name == "sucrose_soft")
+                collider_molecule.radius = 5;
+            else
+                collider_molecule.radius = 9;
+            ON_OFF_Button.GetComponentsInChildren<Text>()[0].text = "Movement Mode OFF";
             molecule.AddComponent<HandDraggable>();
             molecule.AddComponent<RotatableObject>();
         }
-		else if(ON_OFF_Button.GetComponentsInChildren<Text>()[0].text == "Movement Mode OFF"){
+        else if (ON_OFF_Button.GetComponentsInChildren<Text>()[0].text == "Movement Mode OFF")
+        {
             Destroy(GetComponent<GrabbableSimple>());
             // remove old Sphere Collider
             Destroy(molecule.GetComponent<SphereCollider>());
             Destroy(molecule.GetComponent<HandDraggable>());
             Destroy(molecule.GetComponent<RotatableObject>());
             // add Sphere Collider 
-            MeshRenderer[] objects = molecule.GetComponentsInChildren<MeshRenderer>();
-			foreach (MeshRenderer i in objects){
-				GameObject atom = i.gameObject;
-                if (atom.ToString().Contains(keyword)){
-					SphereCollider collider_atom = atom.AddComponent<SphereCollider>() as SphereCollider;
-				}
-			}
-			ON_OFF_Button.GetComponentsInChildren<Text>()[0].text = "Movement Mode ON";
+            List<GameObject> l = new List<Transform>(molecule.transform.GetComponentsInChildren<Transform>()).ConvertAll<GameObject>(delegate (Transform p_it) { return p_it.gameObject; });
+            foreach (GameObject i in l)
+            {
+                GameObject atom = i.gameObject;
+                if (atom.ToString().Contains(keyword))
+                {
+                    SphereCollider collider_atom = atom.AddComponent<SphereCollider>() as SphereCollider;
+                }
+            }
+            ON_OFF_Button.GetComponentsInChildren<Text>()[0].text = "Movement Mode ON";
 
         }
     }

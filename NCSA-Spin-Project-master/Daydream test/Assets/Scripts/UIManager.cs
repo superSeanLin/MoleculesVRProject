@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -48,6 +49,7 @@ public class UIManager : MonoBehaviour
                     moleculeNames.Add(line.Remove(0, begLine.Length));
                 }
             }
+
         }
         /*
         // load assetBundle from local path
@@ -81,12 +83,12 @@ public class UIManager : MonoBehaviour
 
     //Reloads the Level
     public void Reload(){
-        Application.LoadLevel(Application.loadedLevel);
+        SceneManager.LoadScene(Application.loadedLevel);
     }
 
     //loads inputted level
     public void LoadLevel(string moleculeName){
-        Application.LoadLevel("SPIN6.26");
+        SceneManager.LoadScene("SPIN6.26");
     }
 
     public void LoadMLevel(BaseEventData data){

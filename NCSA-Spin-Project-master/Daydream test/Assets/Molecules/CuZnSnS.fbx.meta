@@ -3,7 +3,7 @@ guid: ff3bf8776cd684515b3112c2697c3504
 timeCreated: 1529530114
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Ball (NURBS)_Copper
     100002: Ball (NURBS)_Sulfur
@@ -335,10 +335,12 @@ ModelImporter:
     4300018: Copper
     4300020: Copper|Ball (NURBS)_Copper|Dupli|0.0.0.0.0.0.0.0.0
     4300022: Ball (NURBS)_Copper
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -351,6 +353,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -409,4 +412,4 @@ ModelImporter:
   additionalBone: 0
   userData: 
   assetBundleName: molecules
-  assetBundleVariant: 
+  assetBundleVariant: edmc

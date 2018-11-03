@@ -3,7 +3,7 @@ guid: 64525c78041d04e688021a8276d8ebea
 timeCreated: 1529695993
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Aluminium
     100002: Aluminium|Ball (NURBS)_Aluminium|Dupli|0.0.0.0.0.0.0.0.0
@@ -892,10 +892,12 @@ ModelImporter:
     4300012: Lanthanum
     4300014: Lanthanum|Ball (NURBS)_Lanthanum|Dupli|0.0.0.0.0.0.0.0.0
     4300016: Ball (NURBS)_Lanthanum
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -908,6 +910,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -966,4 +969,4 @@ ModelImporter:
   additionalBone: 0
   userData: 
   assetBundleName: molecules
-  assetBundleVariant: 
+  assetBundleVariant: edmc

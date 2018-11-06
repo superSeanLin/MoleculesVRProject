@@ -34,7 +34,7 @@ Clone or download the folder `xyz_stl_processor` and go to the diretory
 cd ~/<your_directory>/xyz_stl_processor
 ```
 
-## Directory layout
+## Directory Layout
 The directory layout should be like
 ```
 xyz_stl_processor
@@ -50,15 +50,15 @@ xyz_stl_processor
 ```
 
 
-## Running Model
+## Running Processor
 
 ```
-/Applications/Blender/blender.app/Contents/MacOS/blender --background --python ~/<your_directory>/xyz_stl_processor/processor.py image1.xyz 
+/Applications/Blender/blender.app/Contents/MacOS/blender --b --python ~/<your_directory>/xyz_stl_processor/processor.py image1.xyz 
 ```
 or
 
 ```
-/Applications/Blender/blender.app/Contents/MacOS/blender --background --python ~/<your_directory>/xyz_stl_processor/processor.py image1.stl 
+/Applications/Blender/blender.app/Contents/MacOS/blender --b --python ~/<your_directory>/xyz_stl_processor/processor.py image1.stl 
 ```
 
 

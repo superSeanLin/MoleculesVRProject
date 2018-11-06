@@ -36,7 +36,7 @@ cd ~/<your_directory>/xyz_stl_processor
 
 ## Directory layout
 The directory layout should be like
-
+```
 xyz_stl_processor
     ├── ...
     ├── processor.py
@@ -47,6 +47,7 @@ xyz_stl_processor
     │                                            
     ├── io_mesh_xyz.zip  
     └── ...
+```
 
 
 ## Running Model

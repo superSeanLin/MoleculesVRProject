@@ -53,13 +53,11 @@ xyz_stl_processor
 ## Running Processor
 
 ```
-/Applications/Blender/blender.app/Contents/MacOS/blender --b --python ~/<your_directory>/xyz_stl_processor/processor.py image1.xyz 
+/Applications/Blender/blender.app/Contents/MacOS/blender --b --python ~/<your_directory>/xyz_stl_processor/processor.py
 ```
-or
 
-```
-/Applications/Blender/blender.app/Contents/MacOS/blender --b --python ~/<your_directory>/xyz_stl_processor/processor.py image1.stl 
-```
+The output files will be in `data` folder
+
 
 
 

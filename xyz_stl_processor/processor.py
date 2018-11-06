@@ -23,11 +23,12 @@ def process_stl():
 # process XYZ file
 def process_xyz():
     delete_all_objects()
-    bpy.ops.wm.addon_install(filepath='/Users/linqiaoqian/Desktop/xyz_stl_processor/io_mesh_xyz.zip')
+    bpy.ops.wm.addon_install(filepath=os.getcwd() + '/io_mesh_xyz.zip')
     bpy.ops.wm.addon_enable(module='io_mesh_xyz')
 
     bpy.ops.import_mesh.xyz(filepath=molecule_name + '.xyz')
     bpy.ops.export_scene.fbx(filepath=molecule_name + '.fbx')
+    print("Export fbx file successfully")
 
 
 def check_file_type():

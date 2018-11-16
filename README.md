@@ -1,4 +1,6 @@
 # MoleculesVRProject
+Unity 2017.2.1.p2
+
 NCSA Project
 
 This is a simple guide to using MoleculesVR. You will need a Google Daydream VR Headset in order to be able to run the project in full.

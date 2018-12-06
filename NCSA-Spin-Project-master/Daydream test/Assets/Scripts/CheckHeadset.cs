@@ -13,18 +13,18 @@ public class CheckHeadset : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        if (Application.platform == RuntimePlatform.WindowsEditor)
+        if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.OSXEditor)
         {
-            LoadMRObjects(); // Changes editor to support MR Headset
+            //LoadMRObjects(); // Changes editor to support MR Headset
 
             // NOTE: DO NOT HAVE THE MR HEADET CONNECTED OR UNITY WILL CRASH
-            //LoadGoogleObjects(); // Changes editor to support Google Headset
+            LoadGoogleObjects(); // Changes editor to support Google Headset
         }
         else if (Application.platform == RuntimePlatform.WindowsPlayer)
         {
             LoadMRObjects();
         }
-        else if (Application.platform == RuntimePlatform.Android)
+        else if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
         {
             LoadGoogleObjects();
         }
@@ -38,8 +38,8 @@ public class CheckHeadset : MonoBehaviour {
     {
         isGoogle = true;
         GoogleVR_Objects.SetActive(true);
-    }
 
+    }
     public void LoadMRObjects()
     {
         isMR = true;

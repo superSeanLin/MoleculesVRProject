@@ -20,3 +20,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Electron Density Testing/SPIN6.26_electron_density_test.unity
     guid: d146c4b5e86d7d3438f1bc938a66056c
+  m_configObjects: {}

@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 64525c78041d04e688021a8276d8ebea
-timeCreated: 1529695993
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Aluminium
     100002: Aluminium|Ball (NURBS)_Aluminium|Dupli|0.0.0.0.0.0.0.0.0
@@ -892,7 +890,23 @@ ModelImporter:
     4300012: Lanthanum
     4300014: Lanthanum|Ball (NURBS)_Lanthanum|Dupli|0.0.0.0.0.0.0.0.0
     4300016: Ball (NURBS)_Lanthanum
-  externalObjects: {}
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminium
+    second: {fileID: 2100000, guid: 5ce3e17ac098845acb7959b0a81933a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lanthanum
+    second: {fileID: 2100000, guid: 978c57af5a99f4714ae26d49bfe7898b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oxygen
+    second: {fileID: 2100000, guid: e0ee43763cd1b4787ae0352e5cddd178, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -911,6 +925,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -935,11 +950,15 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -959,7 +978,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

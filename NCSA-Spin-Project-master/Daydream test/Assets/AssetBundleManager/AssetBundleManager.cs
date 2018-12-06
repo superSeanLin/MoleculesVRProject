@@ -128,7 +128,15 @@ namespace AssetBundles
 				return Application.streamingAssetsPath;
 			else // For standalone player.
             */
-			return "file://" +  Application.streamingAssetsPath;
+            if(Application.platform == RuntimePlatform.IPhonePlayer) {
+                return Application.streamingAssetsPath + "/Raw";
+            }
+            else if(Application.platform == RuntimePlatform.OSXEditor) {
+                return Application.streamingAssetsPath + "/StreamingAssets"; 
+            }
+            else {
+                return "file://" + Application.streamingAssetsPath;
+            }
 		}
 	
 		public static void SetSourceAssetBundleDirectory(string relativePath)
